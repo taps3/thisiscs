@@ -2,12 +2,16 @@
 #+TITLE: This is CS!
 #+AUTHOR: Eric Allatta
 #+EMAIL: ericallatta@gmail.com
+#+REVEAL_INIT_OPTIONS: slideNumber:false, transition:'cube', controlsTutorial: false
+#+OPTIONS: toc:nil num:nil
 #+LATEX_CLASS: beamer
 #+LATEX_CLASS_OPTIONS: [presentation]
-#+OPTIONS: H:2 toc:t num:t
 #+BEAMER_THEME: Berkeley
 #+BEAMER_COLOR_THEME: seagull
+
 #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_HLEVEL: 1
+#+REVEAL_THEME: simple
 * Introduction
   :PROPERTIES:
   :BEAMER_env: block
@@ -100,7 +104,6 @@ Activities:
 *** Facilitator
   - know what "we are supposed to be doing right now"
   - special focus on tasks, deliverables/goals/objectives, and flow
-
 
 * Day 1
   :PROPERTIES:
