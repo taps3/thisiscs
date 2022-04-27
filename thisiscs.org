@@ -7,7 +7,7 @@
 #+OPTIONS: H:2 toc:t num:t
 #+BEAMER_THEME: Berkeley
 #+BEAMER_COLOR_THEME: seagull
-#+REVEAL_ROOT: file:///home/eallatta/Dropbox/orgfiles/thisiscs/reveal.js-master/
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
 * Introduction
   :PROPERTIES:
   :BEAMER_env: block
