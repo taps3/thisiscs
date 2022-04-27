@@ -33,7 +33,7 @@
    - 10 years in NYC public schools
    - Founding computer science teacher of the Academy for 
    #+ATTR_LATEX: :width 3cm :options angle=270
-   [[./family.jpg]]
+   [[./assets/family.jpg]]
 
 ** Big picture
    :PROPERTIES:
