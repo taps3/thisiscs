@@ -9,7 +9,7 @@
 #+BEAMER_THEME: Berkeley
 #+BEAMER_COLOR_THEME: seagull
 
-#+REVEAL_INIT_OPTIONS: slideNumber:false, transition:'none', controlsTutorial: false
+#+REVEAL_INIT_OPTIONS: slideNumber:false, transition:'none', controlsTutorial: false, navigationMode: grid
 #+REVEAL_ROOT: reveal.js
 #+REVEAL_HLEVEL: 1
 #+REVEAL_THEME: simple
