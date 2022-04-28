@@ -176,6 +176,17 @@ University of Georgia researchers created a model to help identify
 [[https://news.uga.edu/improving-georgia-land-conservation-through-algorithms/][Conservation Through Algorithms - UGA Today]]
 
 ** Connections
+* Notice & Wonder
+Lots of notice
+
+Wonder means begin an idea, consider possibilities
+
+Wonderings are questions with possible answers
+#+BEGIN_NOTES
+Just forming a answer that might be right is a big win. What kind of
+answer would even make sense here? What units? What range of values?
+What constraints? What motivations?
+#+END_NOTES
 * Let's talk about the internet
 ** Code.org internet simulator
 
@@ -188,8 +199,16 @@ internet simulator. What do we need to know?
 *** Activity Explore the Simulator
 - Simulator :: [[https://studio.code.org/s/csp2-2021/lessons/1/levels/1?section_id=4067479][First Simulator]]
 - Context :: Whole group
-- Instructions :: Connect to your partner via our first simulator
+- Setup :: Connect to your partner via our first simulator
 - Groups :: [[https://docs.google.com/document/d/1S6g80qzFP6Kh0nqy8_QEfPO60P5rcDLoc_Z2H-WoZUc/edit#heading=h.9is4g32neq61][anchor doc groups heading]]
+**** Instructions
+Two group members connect to each other in the simulator
+
+One of those connected members should share their screen
+
+The additional group member assumes Reporter/Time keeper/Facilitator
+while the connected members discuss what they notice about the
+simulator.
 *** Activity Send/Receive a Bit
 *** Activity Send/Receive a Word
 *** Activity Send/Receive/Confirm a Word
