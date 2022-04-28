@@ -10,7 +10,7 @@
 #+BEAMER_COLOR_THEME: seagull
 
 #+REVEAL_INIT_OPTIONS: slideNumber:false, transition:'none', controlsTutorial: false
-#+REVEAL_ROOT: file:///home/eallatta/Dropbox/orgfiles/thisiscs/reveal.js
+#+REVEAL_ROOT: reveal.js
 #+REVEAL_HLEVEL: 1
 #+REVEAL_THEME: simple
 * Introduction
@@ -103,7 +103,6 @@ csunplugged, gsheets, code.org internet, bashcrawl
 
 ** Facilitator
 
-
 * Team Roles
 ** Reporter
   - record and report team conversation
@@ -114,7 +113,6 @@ csunplugged, gsheets, code.org internet, bashcrawl
 ** Facilitator
   - know what "we are supposed to be doing right now"
   - special focus on tasks, deliverables/goals/objectives, and flow
-
 
 * Computing in the news
 *** Resources
