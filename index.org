@@ -9,376 +9,376 @@
 #+BEAMER_THEME: Berkeley
 #+BEAMER_COLOR_THEME: seagull
 
-#+REVEAL_INIT_OPTIONS: slideNumber:false, transition:'none', controlsTutorial: false, navigationMode: 'default'
+#+REVEAL_INIT_OPTIONS: slideNumber:false, transition:'none', controlsTutorial: false, navigationMode: 'default '
 #+REVEAL_ROOT: reveal.js
 #+REVEAL_HLEVEL: 1
 #+REVEAL_THEME: simple
-* Preamble
-** Welcome!
-   :PROPERTIES:
-   :BEAMER_COL: 0.48
-   :BEAMER_ENV: block
-   :END:
+* Preamble :noexport_reveal:
+* Welcome!
+  :PROPERTIES:
+  :BEAMER_COL: 0.48
+  :BEAMER_ENV: block
+  :END:
 
-    Welcome to So This is CS!
- #+BEGIN_NOTES
- A Great note
- #+END_NOTES
+   Welcome to So This is CS!
+#+BEGIN_NOTES
+A Great note
+#+END_NOTES
 
-** About Me
-   :PROPERTIES:
-   :BEAMER_ENV: block
-   :END:
+* About Me
+  :PROPERTIES:
+  :BEAMER_ENV: block
+  :END:
 
-    - Father (Joy, 11; Bruce, 6; Rose, 18m)
-    - Freelance designer, builder, teacher
-    - 10 years in NYC public schools
-    - Founding computer science teacher of the Academy for Software Engineering
- #+ATTR_ORG: :width 100px
- #+ATTR_LATEX: :width 3cm 
- #+ATTR_HTML: :height 300px
- [[file:./assets/family.jpg]]
+   - Father (Joy, 11; Bruce, 6; Rose, 18m)
+   - Freelance designer, builder, teacher
+   - 10 years in NYC public schools
+   - Founding computer science teacher of the Academy for Software Engineering
+#+ATTR_ORG: :width 100px
+#+ATTR_LATEX: :width 3cm 
+#+ATTR_HTML: :height 300px
+[[file:./assets/family.jpg]]
 
-** Big picture
-   :PROPERTIES:
-   :BEAMER_COL: 0.48
-   :BEAMER_ENV: block
-   :END:
+* Big picture
+  :PROPERTIES:
+  :BEAMER_COL: 0.48
+  :BEAMER_ENV: block
+  :END:
 
- Particpants will...
-   - engage in hands-on learning through a variety of computing tools
-     and  classroom activities adaptable for a range of ages,
-   - form connections between CS ed curricula and core academic subjects,
-   - and solve school-based problems with spreadsheet data engineering.
+Particpants will...
+  - engage in hands-on learning through a variety of computing tools
+    and  classroom activities adaptable for a range of ages,
+  - form connections between CS ed curricula and core academic subjects,
+  - and solve school-based problems with spreadsheet data engineering.
 
-** The Plan
-*** Day 1
+* The Plan
+** Day 1
 
- - Computing in the News
- - The internet
- - Portfolio Sites
- - Email
+- Computing in the News
+- The internet
+- Portfolio Sites
+- Email
 
-*** Day 2
+** Day 2
 
- - Algebra
- - Data
- - Programming
+- Algebra
+- Data
+- Programming
 
-** Activities
-   :PROPERTIES:
-   :BEAMER_COL: 0.48
-   :BEAMER_ENV: block
-   :END:
+* Activities
+  :PROPERTIES:
+  :BEAMER_COL: 0.48
+  :BEAMER_ENV: block
+  :END:
 
-*** internet simulator (from code.org)
-*** github portfolio site (from jmcloone)
-*** email amnesty
-*** computing in the news (from bjc)
+** internet simulator (from code.org)
+** github portfolio site (from jmcloone)
+** email amnesty
+** computing in the news (from bjc)
 
- #+BEGIN_NOTES
-  bashcrawl (from [gitlab repo?])
- #+END_NOTES
+#+BEGIN_NOTES
+ bashcrawl (from [gitlab repo?])
+#+END_NOTES
 
-*** student data analysis (from spepe)
+** student data analysis (from spepe)
 
- csunplugged, gsheets, code.org internet, bashcrawl
+csunplugged, gsheets, code.org internet, bashcrawl
 
-** Parking Lot
-** Roles
-   :PROPERTIES:
-   :BEAMER_COL: 0.48
-   :BEAMER_ENV: block
-   :END:
+* Parking Lot
+* Roles
+  :PROPERTIES:
+  :BEAMER_COL: 0.48
+  :BEAMER_ENV: block
+  :END:
 
-** Global roles
-*** Reporter
+* Global roles
+** Reporter
 
- - maintain parking lot,
- - record and report back,
- - monitor chat
+- maintain parking lot,
+- record and report back,
+- monitor chat
 
-*** Time keeper
+** Time keeper
 
- - monitor lecture length
- - monitor break length
- - call out timing alerts, convey pacing consensus
+- monitor lecture length
+- monitor break length
+- call out timing alerts, convey pacing consensus
 
-*** Facilitator
-** Team Roles
-*** Reporter
+** Facilitator
+* Team Roles
+** Reporter
 
-   - record and report team conversation
-   - special focus on parking lot questions 
+  - record and report team conversation
+  - special focus on parking lot questions 
 
-*** Time keeper
+** Time keeper
 
-   - keep us honest
-   - special focus on timing of activities and balanced group participation
+  - keep us honest
+  - special focus on timing of activities and balanced group participation
 
-*** Facilitator
+** Facilitator
 
-   - know what "we are supposed to be doing right now"
-   - special focus on tasks, deliverables/goals/objectives, and flow
+  - know what "we are supposed to be doing right now"
+  - special focus on tasks, deliverables/goals/objectives, and flow
 
-** Teams
-   :PROPERTIES:
-   :CREATED:  [2022-04-28 Thu 09:40]
-   :END:
+* Teams
+  :PROPERTIES:
+  :CREATED:  [2022-04-28 Thu 09:40]
+  :END:
 
- Round Robin algorithm
+Round Robin algorithm
 
-* Day 1
-** Computing in the news
-**** Resources
+* Day 1 :noexport_reveal:
+* Computing in the news
+** Resources
 
- [[https://technews.acm.org][ACM Technews]] 
+[[https://technews.acm.org][ACM Technews]] 
 
- #+REVEAL: split:t
- An artificial intelligence (AI) software solution developed by Intel and Classroom Technologies to identify students' emotional states is generating controversy in the context of ethics and privacy.
+#+REVEAL: split:t
+An artificial intelligence (AI) software solution developed by Intel and Classroom Technologies to identify students' emotional states is generating controversy in the context of ethics and privacy.
 
- [[https://www.tomshardware.com/news/intel-students-ai-controversy][Intel Develops AI to Detect Emotional States of Students - Tom's Hardware 2022-04-27]]
+[[https://www.tomshardware.com/news/intel-students-ai-controversy][Intel Develops AI to Detect Emotional States of Students - Tom's Hardware 2022-04-27]]
 
- #+REVEAL: split:t
- University of California, San Diego (UCSD) computer scientists have
-   developed algorithms to keep offensive speech from being generated
-   by online chatbots.  
+#+REVEAL: split:t
+University of California, San Diego (UCSD) computer scientists have
+  developed algorithms to keep offensive speech from being generated
+  by online chatbots.  
 
- [[https://ucsdnews.ucsd.edu/pressrelease/cleaning-up-online-bots-act-and-speech][Cleaning Up Online Bots' Act—and Speech - UC San Diego News Center 2022-04-25]]
+[[https://ucsdnews.ucsd.edu/pressrelease/cleaning-up-online-bots-act-and-speech][Cleaning Up Online Bots' Act—and Speech - UC San Diego News Center 2022-04-25]]
 
- #+REVEAL: split:t
- Robots are socialize with nursing home residents, telling them jokes
-   and leading their yoga classes. Can Robots Save Nursing Homes? 
+#+REVEAL: split:t
+Robots are socialize with nursing home residents, telling them jokes
+  and leading their yoga classes. Can Robots Save Nursing Homes? 
 
- [[https://www.nytimes.com/2022/04/21/realestate/nursing-home-robots.html][Nursing Home Robots- The New York Times 2022-04-25]]
+[[https://www.nytimes.com/2022/04/21/realestate/nursing-home-robots.html][Nursing Home Robots- The New York Times 2022-04-25]]
 
- #+REVEAL: split:t
+#+REVEAL: split:t
 
- The app-analytics firm Sensor Tower Inc. found that 1 out of 10 mobile games used bots at the beginning of 2016, a figure that has risen to 7 of the 10 most-played mobile games. 
+The app-analytics firm Sensor Tower Inc. found that 1 out of 10 mobile games used bots at the beginning of 2016, a figure that has risen to 7 of the 10 most-played mobile games. 
 
- [[https://www.wsj.com/articles/friend-or-bot-phony-gamers-leave-players-feeling-betrayed-11650377760][Friend or Bot? Phony Gamers Leave Players Feeling Betrayed - The Wall Street Journal 2022-04-25]]
+[[https://www.wsj.com/articles/friend-or-bot-phony-gamers-leave-players-feeling-betrayed-11650377760][Friend or Bot? Phony Gamers Leave Players Feeling Betrayed - The Wall Street Journal 2022-04-25]]
 
- #+REVEAL: split:t
- University of Georgia researchers created a model to help identify
-   locations best suited for conservation. Improving Georgia Land
+#+REVEAL: split:t
+University of Georgia researchers created a model to help identify
+  locations best suited for conservation. Improving Georgia Land
   
- [[https://news.uga.edu/improving-georgia-land-conservation-through-algorithms/][Conservation Through Algorithms - UGA Today]]
+[[https://news.uga.edu/improving-georgia-land-conservation-through-algorithms/][Conservation Through Algorithms - UGA Today]]
 
-**** Connections
-** Let's talk about the internet
-*** Code.org internet simulator
+** Connections
+* Let's talk about the internet
+** Code.org internet simulator
 
- #+BEGIN_NOTES
- What needs to go in the presentation? A presentation about the
- internet simulator. What do we need to know?
- #+END_NOTES
+#+BEGIN_NOTES
+What needs to go in the presentation? A presentation about the
+internet simulator. What do we need to know?
+#+END_NOTES
 
-**** Internet Simulator Overview
-**** Activity Send/Receive a Bit
-**** Activity Send/Receive a Word
-**** Activity Send/Receive/Confirm a Word
-*** Protocols and Abstraction Layers
+*** Internet Simulator Overview
+*** Activity Send/Receive a Bit
+*** Activity Send/Receive a Word
+*** Activity Send/Receive/Confirm a Word
+** Protocols and Abstraction Layers
 
- #+BEGIN_NOTES
- This is where we talk about how the protocol is separate from the
- technology. The big idea is the separation. A black box reduces the
- complexity of the system. It also also parts of the system to be
- swaped out because the pieces are encapsulated. Technologies can
- change underneath the protocol. Each layer of the protocol is separate
- from each other.
- #+END_NOTES
+#+BEGIN_NOTES
+This is where we talk about how the protocol is separate from the
+technology. The big idea is the separation. A black box reduces the
+complexity of the system. It also also parts of the system to be
+swaped out because the pieces are encapsulated. Technologies can
+change underneath the protocol. Each layer of the protocol is separate
+from each other.
+#+END_NOTES
 
-**** Do one job
-*** Packets and redundancy
+*** Do one job
+** Packets and redundancy
 
- So how do messages get from one place to another
+So how do messages get from one place to another
 
-**** Jumps
-**** Redundancy
-**** Undersea cables
-**** Security
-**** Passwords
-*** Connections
-*** Resources
+*** Jumps
+*** Redundancy
+*** Undersea cables
+*** Security
+*** Passwords
+** Connections
+** Resources
 
- Tubes: Journey to the center of the internet (teacher knowledge base)
+Tubes: Journey to the center of the internet (teacher knowledge base)
 
-** Let's talk about computers
-**** Computers
+* Let's talk about computers
+** Computers
 
- From person to machine
- Navigation, star charting, understanding the cosmos
- All data analysis with huge computations
- Aids like the abacus add mechanical memory to the computation process
+From person to machine
+Navigation, star charting, understanding the cosmos
+All data analysis with huge computations
+Aids like the abacus add mechanical memory to the computation process
 
-**** Switches
+** Switches
 
- Flashlights, Telegraph, Boolean Algebra
+Flashlights, Telegraph, Boolean Algebra
 
- On/Off languages, binary languages, binary algebra
+On/Off languages, binary languages, binary algebra
 
- Electronic switches are fast.
+Electronic switches are fast.
 
- Translate computational problems into binary problems and give it to
- the machine
+Translate computational problems into binary problems and give it to
+the machine
 
-**** Structure
+** Structure
 
- Programming a computer means working with the structural precision required by
- computers. Computers consume data, apply instructions to transform
- that data, and produce results in some form that we can use.
+Programming a computer means working with the structural precision required by
+computers. Computers consume data, apply instructions to transform
+that data, and produce results in some form that we can use.
 
-**** Resources
+** Resources
 
- - Code: The hidden language of computing machines
- - [[https://nand2tetris.org][Nand2Tetris]]
- - [[https://mouse.org][Mouse]]
+- Code: The hidden language of computing machines
+- [[https://nand2tetris.org][Nand2Tetris]]
+- [[https://mouse.org][Mouse]]
 
-**** Connections
-** Let's talk about web creation and portfolio sites
-*** Choosing tools
-*** Motivating Web Creation
-*** Markup languages
+** Connections
+* Let's talk about web creation and portfolio sites
+** Choosing tools
+** Motivating Web Creation
+** Markup languages
 
- - A lighter introduction to structured text
- - HTML is a markup language
- - Markup means using structure to tell a computer what things mean
- - 
- - HTML isn't the only option
- - HTML 
+- A lighter introduction to structured text
+- HTML is a markup language
+- Markup means using structure to tell a computer what things mean
+- 
+- HTML isn't the only option
+- HTML 
 
-*** Symbols
+** Symbols
 
- #+BEGIN_NOTES
- How do we tell
- the computer which words are the content and which words are
- instructions?
- #+END_NOTES
+#+BEGIN_NOTES
+How do we tell
+the computer which words are the content and which words are
+instructions?
+#+END_NOTES
 
-*** HTML Tags
+** HTML Tags
 
- #+BEGIN_NOTES
- Compare indenting in a word process -- hit tab, see the word move --
- to writing the word tab at the beginning of the line.  Instructions are given special characters that computers
- can recognize. In HTML the symbols are called tags and use the "<" and
- ">" symbols.
- #+END_NOTES
+#+BEGIN_NOTES
+Compare indenting in a word process -- hit tab, see the word move --
+to writing the word tab at the beginning of the line.  Instructions are given special characters that computers
+can recognize. In HTML the symbols are called tags and use the "<" and
+">" symbols.
+#+END_NOTES
 
-** Let's talk about email
-**** Locations: labels, tags, folders
+* Let's talk about email
+** Locations: labels, tags, folders
 
- Folders remind us of putting a piece of paper in a filing cabinet.
+Folders remind us of putting a piece of paper in a filing cabinet.
 
- Files are an idea. Another idea is to put one or more label on each
- item and to collect together items with the same label when we need
- them.
+Files are an idea. Another idea is to put one or more label on each
+item and to collect together items with the same label when we need
+them.
 
- In a labeling system items can exist in more than one location.
+In a labeling system items can exist in more than one location.
 
-**** Archive, Star, Delete
+** Archive, Star, Delete
 
- - Archive :: remove the inbox label
- - Star :: add a star
- - Label :: like star but with a custom name
- - Delete :: remove all labels and add a "Trash" label
+- Archive :: remove the inbox label
+- Star :: add a star
+- Label :: like star but with a custom name
+- Delete :: remove all labels and add a "Trash" label
 
-**** Analyze
+** Analyze
 
- What kind of messages are you receiving?
+What kind of messages are you receiving?
 
- Students were getting ten messages per day alerting them to various
- activity on the platforms we set up for them: digital classroom,
- communication blasts, attendance
+Students were getting ten messages per day alerting them to various
+activity on the platforms we set up for them: digital classroom,
+communication blasts, attendance
 
-**** Process
+** Process
 
- Inbox -> Starred -> Archive
- g i s e
+Inbox -> Starred -> Archive
+g i s e
 
- Inbox -> Trash
- #
+Inbox -> Trash
+#
 
- Inbox -> Reply
- r
+Inbox -> Reply
+r
 
-**** Stars and flags
+** Stars and flags
 
- - Starred is the activity section
- - Multiple stars can represent different kinds of action
- - 
+- Starred is the activity section
+- Multiple stars can represent different kinds of action
+- 
 
-**** Filters
+** Filters
 
- Inbox is a filter. A filter catches some values and let's others
- through. Inbox shows us messages that contain the metadata "Inbox". 
+Inbox is a filter. A filter catches some values and let's others
+through. Inbox shows us messages that contain the metadata "Inbox". 
 
- Starred or flagged is a filter for all messages containing a metadata
- star or flag. 
+Starred or flagged is a filter for all messages containing a metadata
+star or flag. 
 
-**** Rules
-**** Notifications
-**** Connections
-** Let's talk about running a computer lab
-**** Room layout
-**** Monitoring and Circulation
-**** Structure
-**** Rapport
-**** Software
-**** Debugging
-**** Seating Charts and Pair Programming
-**** Work products: analog and digital
-**** Assessment:  cultivating success
+** Rules
+** Notifications
+** Connections
+* Let's talk about running a computer lab
+** Room layout
+** Monitoring and Circulation
+** Structure
+** Rapport
+** Software
+** Debugging
+** Seating Charts and Pair Programming
+** Work products: analog and digital
+** Assessment:  cultivating success
 
-* Day 2
-** Computing in the news
-*** Resources
+* Day 2 :noexport_reveal:
+* Computing in the news
+** Resources
 
- technews.acm.org
+technews.acm.org
 
-** Let's talk about algebra
-*** Equations
+* Let's talk about algebra
+** Equations
 
- Computer science can help us use precision in mathematics.
+Computer science can help us use precision in mathematics.
 
- What is an equation?
+What is an equation?
 
- Have you ever refered to an equation as
- containing the answer?
+Have you ever refered to an equation as
+containing the answer?
 
-*** Functions
+** Functions
 
- Repeatable computational abstractions
- The target of elementary and middle school mathematics is modeling and
- reasoning and expressions and equations standards are functions.
+Repeatable computational abstractions
+The target of elementary and middle school mathematics is modeling and
+reasoning and expressions and equations standards are functions.
 
- Equations are a catch all phrase in mathematics education that often
- includes what we mean by functions in algebra.
+Equations are a catch all phrase in mathematics education that often
+includes what we mean by functions in algebra.
 
- Notice what changes, collect and plot data, predict/interpolate values
+Notice what changes, collect and plot data, predict/interpolate values
 
-*** Examples
+** Examples
 
- A right circular cone has a height of 11 centimeters and a diameter of
- 7 centimeters. What is the approximate volume, in cubic centimeters,
- of the cone?
+A right circular cone has a height of 11 centimeters and a diameter of
+7 centimeters. What is the approximate volume, in cubic centimeters,
+of the cone?
 
- - What skill is being assessed?
- - What is given (context)?
- - 
+- What skill is being assessed?
+- What is given (context)?
+- 
 
-*** Imagine data entities
+** Imagine data entities
 
- Data entities are elements of our world that we might want to track as data.
+Data entities are elements of our world that we might want to track as data.
 
- Students in a school are often represented as a data point with a
- number of dimensions. Some of the dimensions (or attributes)
- associated with a student are attendance, credits, biographicals.
+Students in a school are often represented as a data point with a
+number of dimensions. Some of the dimensions (or attributes)
+associated with a student are attendance, credits, biographicals.
 
- *Brainstorm* data entities from your own life.
+*Brainstorm* data entities from your own life.
 
-** Let's talk about spreadsheets
-** Let's talk about data science
-** Let's talk about filters and sorts
+* Let's talk about spreadsheets
+* Let's talk about data science
+* Let's talk about filters and sorts
 
-    So I'm trying to find a stereo on best buy
+   So I'm trying to find a stereo on best buy
 
