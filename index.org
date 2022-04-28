@@ -1,0 +1,324 @@
+#+STARTUP: beamer overview
+#+TITLE: This is CS!
+#+AUTHOR: Eric Allatta
+#+EMAIL: ericallatta@gmail.com
+
+#+OPTIONS: toc:nil num:nil
+#+LATEX_CLASS: beamer
+#+LATEX_CLASS_OPTIONS: [presentation]
+#+BEAMER_THEME: Berkeley
+#+BEAMER_COLOR_THEME: seagull
+
+#+REVEAL_INIT_OPTIONS: slideNumber:false, transition:'none', controlsTutorial: false
+#+REVEAL_ROOT: file:///home/eallatta/Dropbox/orgfiles/thisiscs/reveal.js
+#+REVEAL_HLEVEL: 1
+#+REVEAL_THEME: simple
+* Introduction
+  :PROPERTIES:
+  :BEAMER_env: block
+  :END:
+Some text
+#+BEGIN_NOTES
+This is a note
+#+END_NOTES
+* Welcome!
+  :PROPERTIES:
+  :BEAMER_COL: 0.48
+  :BEAMER_ENV: block
+  :END:
+   
+   Welcome to So This is CS!
+#+BEGIN_NOTES
+A Great note
+#+END_NOTES
+* About Me
+   :PROPERTIES:
+   :BEAMER_ENV: block
+   :END:
+   - Father (Joy, 11; Bruce, 6; Rose, 18m)
+   - Freelance designer, builder, teacher
+   - 10 years in NYC public schools
+   - Founding computer science teacher of the Academy for Software Engineering
+#+ATTR_ORG: :width 100px
+#+ATTR_LATEX: :width 3cm 
+#+ATTR_HTML: :height 300px
+[[file:./assets/family.jpg]]
+
+* Big picture
+   :PROPERTIES:
+   :BEAMER_COL: 0.48
+   :BEAMER_ENV: block
+   :END:
+Particpants will...
+  - engage in hands-on learning through a variety of computing tools
+    and  classroom activities adaptable for a range of ages,
+  - form connections between CS ed curricula and core academic subjects,
+  - and solve school-based problems with spreadsheet data engineering.
+ 
+* The Plan
+
+** Day 1
+- Computing in the News
+- The internet
+- Portfolio Sites
+- Email
+
+** Day 2
+- Algebra
+- Data
+- Programming
+
+* Activities
+   :PROPERTIES:
+   :BEAMER_COL: 0.48
+   :BEAMER_ENV: block
+   :END:
+** internet simulator (from code.org)
+** github portfolio site (from jmcloone)
+** email amnesty
+** computing in the news (from bjc)
+#+BEGIN_NOTES
+ bashcrawl (from [gitlab repo?])
+#+END_NOTES
+** student data analysis (from spepe)
+csunplugged, gsheets, code.org internet, bashcrawl
+
+* Parking Lot
+
+* Roles
+   :PROPERTIES:
+   :BEAMER_COL: 0.48
+   :BEAMER_ENV: block
+   :END:
+* Global roles
+** Reporter
+- maintain parking lot,
+- record and report back,
+- monitor chat
+
+** Time keeper
+- monitor lecture length
+- monitor break length
+- call out timing alerts, convey pacing consensus
+
+** Facilitator
+
+
+* Team Roles
+** Reporter
+  - record and report team conversation
+  - special focus on parking lot questions 
+** Time keeper
+  - keep us honest
+  - special focus on timing of activities and balanced group participation
+** Facilitator
+  - know what "we are supposed to be doing right now"
+  - special focus on tasks, deliverables/goals/objectives, and flow
+
+
+* Computing in the news
+*** Resources
+[[https://technews.acm.org%0A][ACM Technews]] 
+
+University of California, San Diego (UCSD) computer scientists have
+  developed algorithms to keep offensive speech from being generated
+  by online chatbots.  Cleaning Up Online Bots' Act—and Speech UC San
+  Diego News Center
+#+REVEAL: split:t
+Robots are socialize with nursing home residents, telling them jokes
+  and leading their yoga classes. Can Robots Save Nursing Homes?  The
+New York Times
+#+REVEAL: split:t
+University of Georgia researchers created a model to help identify
+  locations best suited for conservation. Improving Georgia Land
+  
+Conservation Through Algorithms UGA Today
+
+*** Connections
+* Let's talk about the internet
+** Code.org internet simulator
+
+#+BEGIN_NOTES
+What needs to go in the presentation? A presentation about the
+internet simulator. What do we need to know?
+#+END_NOTES
+*** Internet Simulator Overview
+*** Activity Send/Receive a Bit
+*** Activity Send/Receive a Word
+*** Activity Send/Receive/Confirm a Word
+
+** Protocols and Abstraction Layers
+#+BEGIN_NOTES
+This is where we talk about how the protocol is separate from the
+technology. The big idea is the separation. A black box reduces the
+complexity of the system. It also also parts of the system to be
+swaped out because the pieces are encapsulated. Technologies can
+change underneath the protocol. Each layer of the protocol is separate
+from each other.
+#+END_NOTES
+
+*** Do one job
+
+** Packets and redundancy
+So how do messages get from one place to another
+*** Jumps
+*** Redundancy
+*** Undersea cables
+*** Security
+*** Passwords
+** Connections
+** Resources
+Tubes: Journey to the center of the internet (teacher knowledge base)
+* Let's talk about computers
+*** Computers
+From person to machine
+Navigation, star charting, understanding the cosmos
+All data analysis with huge computations
+Aids like the abacus add mechanical memory to the computation process
+
+*** Switches
+Flashlights, Telegraph, Boolean Algebra
+
+On/Off languages, binary languages, binary algebra
+
+Electronic switches are fast.
+
+Translate computational problems into binary problems and give it to
+the machine
+*** Structure
+Programming a computer means working with the structural precision required by
+computers. Computers consume data, apply instructions to transform
+that data, and produce results in some form that we can use.
+
+*** Resources
+- Code: The hidden language of computing machines
+- [[https://nand2tetris.org][Nand2Tetris]]
+- [[https://mouse.org][Mouse]]
+*** Connections
+* Let's talk about web creation and portfolio sites
+** Choosing tools
+** Motivating Web Creation
+** Markup languages
+- A lighter introduction to structured text
+- HTML is a markup language
+- Markup means using structure to tell a computer what things mean
+- 
+- HTML isn't the only option
+- HTML 
+** Symbols
+#+BEGIN_NOTES
+How do we tell
+the computer which words are the content and which words are
+instructions?
+#+END_NOTES
+** HTML Tags
+#+BEGIN_NOTES
+Compare indenting in a word process -- hit tab, see the word move --
+to writing the word tab at the beginning of the line.  Instructions are given special characters that computers
+can recognize. In HTML the symbols are called tags and use the "<" and
+">" symbols.
+#+END_NOTES
+* Let's talk about email
+*** Locations: labels, tags, folders
+
+Folders remind us of putting a piece of paper in a filing cabinet.
+
+Files are an idea. Another idea is to put one or more label on each
+item and to collect together items with the same label when we need
+them.
+
+In a labeling system items can exist in more than one location.
+*** Archive, Star, Delete
+- Archive :: remove the inbox label
+- Star :: add a star
+- Label :: like star but with a custom name
+- Delete :: remove all labels and add a "Trash" label
+
+*** Analyze
+What kind of messages are you receiving?
+
+Students were getting ten messages per day alerting them to various
+activity on the platforms we set up for them: digital classroom,
+communication blasts, attendance
+
+*** Process
+Inbox -> Starred -> Archive
+g i s e
+
+Inbox -> Trash
+#
+
+Inbox -> Reply
+r
+*** Stars and flags
+- Starred is the activity section
+- Multiple stars can represent different kinds of action
+- 
+*** Filters
+Inbox is a filter. A filter catches some values and let's others
+through. Inbox shows us messages that contain the metadata "Inbox". 
+
+Starred or flagged is a filter for all messages containing a metadata
+star or flag. 
+*** Rules
+
+*** Notifications
+
+*** Connections
+* Let's talk about running a computer lab
+*** Room layout
+*** Monitoring and Circulation
+*** Structure
+*** Rapport
+*** Software
+*** Debugging
+*** Seating Charts and Pair Programming
+*** Work products: analog and digital
+*** Assessment:  cultivating success
+
+* Computing in the news
+** Resources
+technews.acm.org
+* Let's talk about algebra
+** Equations
+Computer science can help us use precision in mathematics.
+
+What is an equation?
+
+Have you ever refered to an equation as
+containing the answer?
+** Functions
+Repeatable computational abstractions
+The target of elementary and middle school mathematics is modeling and
+reasoning and expressions and equations standards are functions.
+
+Equations are a catch all phrase in mathematics education that often
+includes what we mean by functions in algebra.
+
+Notice what changes, collect and plot data, predict/interpolate values
+** Examples 
+A right circular cone has a height of 11 centimeters and a diameter of
+7 centimeters. What is the approximate volume, in cubic centimeters,
+of the cone?
+
+- What skill is being assessed?
+- What is given (context)?
+- 
+** Imagine data entities
+Data entities are elements of our world that we might want to track as data.
+
+Students in a school are often represented as a data point with a
+number of dimensions. Some of the dimensions (or attributes)
+associated with a student are attendance, credits, biographicals.
+
+*Brainstorm* data entities from your own life.
+
+* Let's talk about spreadsheets
+* Let's talk about data science
+* Let's talk about filters and sorts
+
+   So I'm trying to find a stereo on best buy
+
+
+
+   
