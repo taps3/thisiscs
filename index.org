@@ -9,7 +9,7 @@
 #+BEAMER_THEME: Berkeley
 #+BEAMER_COLOR_THEME: seagull
 
-#+REVEAL_INIT_OPTIONS: slideNumber:false, transition:'none', controlsTutorial: false, navigationMode: 'default '
+#+REVEAL_INIT_OPTIONS: slideNumber:false, transition:'none', controlsTutorial: false, navigationMode: 'default'
 #+REVEAL_ROOT: reveal.js
 #+REVEAL_HLEVEL: 1
 #+REVEAL_THEME: simple
@@ -84,13 +84,23 @@ Particpants will...
 
 csunplugged, gsheets, code.org internet, bashcrawl
 
-* Parking Lot
+* Anchor Doc + parking lot
+[[https://docs.google.com/document/d/1S6g80qzFP6Kh0nqy8_QEfPO60P5rcDLoc_Z2H-WoZUc/edit#][anchor doc]]
 * Roles
   :PROPERTIES:
   :BEAMER_COL: 0.48
   :BEAMER_ENV: block
   :END:
-
+#+ATTR_REVEAL: :frag (appear)
+Roles describe areas of focus during team or group activities.
+#+ATTR_REVEAL: :frag (appear)
+A person can focus on more than one role or a role can be divided between multiple people.
+#+ATTR_REVEAL: :frag (appear)
+More roles can be added but the core roles should always be present.
+#+ATTR_REVEAL: :frag (appear) 
+- Reporter
+- Time keeper
+- Facilitator
 * Global roles
 ** Reporter
 
@@ -128,8 +138,9 @@ csunplugged, gsheets, code.org internet, bashcrawl
 
 Round Robin algorithm
 
+
 * Day 1 :noexport_reveal:
-* Computing in the news
+* Let's talk about computing in the news
 ** Resources
 
 [[https://technews.acm.org][ACM Technews]] 
@@ -174,6 +185,11 @@ internet simulator. What do we need to know?
 #+END_NOTES
 
 *** Internet Simulator Overview
+*** Activity Explore the Simulator
+- Simulator :: [[https://studio.code.org/s/csp2-2021/lessons/1/levels/1?section_id=4067479][First Simulator]]
+- Context :: Whole group
+- Instructions :: Connect to your partner via our first simulator
+- Groups :: [[https://docs.google.com/document/d/1S6g80qzFP6Kh0nqy8_QEfPO60P5rcDLoc_Z2H-WoZUc/edit#heading=h.9is4g32neq61][anchor doc groups heading]]
 *** Activity Send/Receive a Bit
 *** Activity Send/Receive a Word
 *** Activity Send/Receive/Confirm a Word
@@ -328,6 +344,7 @@ star or flag.
 ** Seating Charts and Pair Programming
 ** Work products: analog and digital
 ** Assessment:  cultivating success
+
 
 * Day 2 :noexport_reveal:
 * Computing in the news
