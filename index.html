@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
-<title>This is CS!</title>
+<title>So This is CS!</title>
 <meta name="author" content="Eric Allatta"/>
 <meta name="description" content=""/>
 <meta name="keywords" content=""/>
@@ -13,30 +13,124 @@
 
 <link rel="stylesheet" href="reveal.js/dist/theme/simple.css" id="theme"/>
 
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
 </head>
 <body>
 <div class="reveal">
 <div class="slides">
-<section id="sec-title-slide"><h1 class="title">This is CS!</h1><p class="subtitle"></p>
-<h2 class="author">Eric Allatta</h2><p class="date">Created: 2022-04-28 Thu 07:21</p>
+<section id="sec-title-slide"><h1 class="title">So This is CS!</h1><p class="subtitle"></p>
+<h2 class="author">Eric Allatta</h2><p class="date">Created: 2022-04-28 Thu 11:50</p>
 </section>
-<section>
-<section id="slide-org75040a0">
-<h2 id="org75040a0">Introduction</h2>
-<p>
-Some text
-</p>
-<aside class="notes">
-<p>
-This is a note
-</p>
+<section id="sec-table-of-contents"><div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#/slide-org5e6d51f">1. Preamble</a>
+<ul>
+<li><a href="#/slide-org583346e">1.1. Welcome!</a></li>
+<li><a href="#/slide-org03903ca">1.2. About Me</a></li>
+<li><a href="#/slide-org7f617ba">1.3. Big picture</a></li>
+<li><a href="#/slide-orgf5f6599">1.4. The Plan</a>
+<ul>
+<li><a href="#/slide-org585114b">1.4.1. Day 1</a></li>
+<li><a href="#/slide-org689fa6d">1.4.2. Day 2</a></li>
+</ul>
+</li>
+<li><a href="#/slide-org6a59b5b">1.5. Activities</a>
+<ul>
+<li><a href="#/slide-org5c22fe3">1.5.1. internet simulator (from code.org)</a></li>
+<li><a href="#/slide-org3afd582">1.5.2. github portfolio site (from jmcloone)</a></li>
+<li><a href="#/slide-orgdb71537">1.5.3. email amnesty</a></li>
+<li><a href="#/slide-org96623c1">1.5.4. computing in the news (from bjc)</a></li>
+<li><a href="#/slide-orgd1271d6">1.5.5. student data analysis (from spepe)</a></li>
+</ul>
+</li>
+<li><a href="#/slide-orgdc17519">1.6. Parking Lot</a></li>
+<li><a href="#/slide-orgb070101">1.7. Roles</a></li>
+<li><a href="#/slide-org0905ba8">1.8. Global roles</a>
+<ul>
+<li><a href="#/slide-org1c128f1">1.8.1. Reporter</a></li>
+<li><a href="#/slide-org7877ce9">1.8.2. Time keeper</a></li>
+<li><a href="#/slide-org138f5d8">1.8.3. Facilitator</a></li>
+</ul>
+</li>
+<li><a href="#/slide-orged960f2">1.9. Team Roles</a>
+<ul>
+<li><a href="#/slide-orgc25e535">1.9.1. Reporter</a></li>
+<li><a href="#/slide-orgdf8b5d7">1.9.2. Time keeper</a></li>
+<li><a href="#/slide-org70aabd8">1.9.3. Facilitator</a></li>
+</ul>
+</li>
+<li><a href="#/slide-org2549691">1.10. Teams</a></li>
+</ul>
+</li>
+<li><a href="#/slide-org5270621">2. Day 2</a>
+<ul>
+<li><a href="#/slide-orgfc023bc">2.1. Computing in the news</a></li>
+<li><a href="#/slide-orgedf227c">2.2. Let's talk about the internet</a>
+<ul>
+<li><a href="#/slide-orgb11ca9d">2.2.1. Code.org internet simulator</a></li>
+<li><a href="#/slide-org0e276e8">2.2.2. Protocols and Abstraction Layers</a></li>
+<li><a href="#/slide-org5daaff3">2.2.3. Packets and redundancy</a></li>
+<li><a href="#/slide-orgf18f827">2.2.4. Connections</a></li>
+<li><a href="#/slide-org58352c6">2.2.5. Resources</a></li>
+</ul>
+</li>
+<li><a href="#/slide-org66593b5">2.3. Let's talk about computers</a></li>
+<li><a href="#/slide-org36c4f81">2.4. Let's talk about web creation and portfolio sites</a>
+<ul>
+<li><a href="#/slide-org7ae3ab5">2.4.1. Choosing tools</a></li>
+<li><a href="#/slide-orgdf5f8e0">2.4.2. Motivating Web Creation</a></li>
+<li><a href="#/slide-org8164c1d">2.4.3. Markup languages</a></li>
+<li><a href="#/slide-orgeb54e1a">2.4.4. Symbols</a></li>
+<li><a href="#/slide-orgca211b2">2.4.5. HTML Tags</a></li>
+</ul>
+</li>
+<li><a href="#/slide-org03f90ba">2.5. Let's talk about email</a></li>
+<li><a href="#/slide-orgf5de00b">2.6. Let's talk about running a computer lab</a></li>
+</ul>
+</li>
+<li><a href="#/slide-org962cd5c">3. Day 2</a>
+<ul>
+<li><a href="#/slide-orgb025460">3.1. Computing in the news</a>
+<ul>
+<li><a href="#/slide-org630aee3">3.1.1. Resources</a></li>
+</ul>
+</li>
+<li><a href="#/slide-org92f6276">3.2. Let's talk about algebra</a>
+<ul>
+<li><a href="#/slide-org8ee4fe1">3.2.1. Equations</a></li>
+<li><a href="#/slide-org258a041">3.2.2. Functions</a></li>
+<li><a href="#/slide-org6968ac0">3.2.3. Examples</a></li>
+<li><a href="#/slide-org5464eba">3.2.4. Imagine data entities</a></li>
+</ul>
+</li>
+<li><a href="#/slide-org2540907">3.3. Let's talk about spreadsheets</a></li>
+<li><a href="#/slide-org347f201">3.4. Let's talk about data science</a></li>
+<li><a href="#/slide-orgb5aa238">3.5. Let's talk about filters and sorts</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</section>
 
-</aside>
-</section>
-</section>
 <section>
-<section id="slide-org3c7e1c8">
-<h2 id="org3c7e1c8">Welcome!</h2>
+<section id="slide-org5e6d51f">
+<h2 id="org5e6d51f"><span class="section-number-2">1</span> Preamble</h2>
+</section>
+<section id="slide-org583346e">
+<h3 id="org583346e"><span class="section-number-3">1.1</span> Welcome!</h3>
 <p>
 Welcome to So This is CS!
 </p>
@@ -46,11 +140,10 @@ A Great note
 </p>
 
 </aside>
+
 </section>
-</section>
-<section>
-<section id="slide-org7fcd59b">
-<h2 id="org7fcd59b">About Me</h2>
+<section id="slide-org03903ca">
+<h3 id="org03903ca"><span class="section-number-3">1.2</span> About Me</h3>
 <ul>
 <li>Father (Joy, 11; Bruce, 6; Rose, 18m)</li>
 <li>Freelance designer, builder, teacher</li>
@@ -65,10 +158,8 @@ A Great note
 </div>
 
 </section>
-</section>
-<section>
-<section id="slide-org7c7bca9">
-<h2 id="org7c7bca9">Big picture</h2>
+<section id="slide-org7f617ba">
+<h3 id="org7f617ba"><span class="section-number-3">1.3</span> Big picture</h3>
 <p>
 Particpants will&#x2026;
 </p>
@@ -81,15 +172,13 @@ and  classroom activities adaptable for a range of ages,</li>
 </ul>
 
 </section>
-</section>
-<section>
-<section id="slide-org6c83813">
-<h2 id="org6c83813">The Plan</h2>
-<div class="outline-text-2" id="text-org6c83813">
+<section id="slide-orgf5f6599">
+<h3 id="orgf5f6599"><span class="section-number-3">1.4</span> The Plan</h3>
+<div class="outline-text-3" id="text-1-4">
 </div>
 </section>
-<section id="slide-orgda74e61">
-<h3 id="orgda74e61">Day 1</h3>
+<section id="slide-org585114b">
+<h4 id="org585114b"><span class="section-number-4">1.4.1</span> Day 1</h4>
 <ul>
 <li>Computing in the News</li>
 <li>The internet</li>
@@ -99,8 +188,8 @@ and  classroom activities adaptable for a range of ages,</li>
 </ul>
 
 </section>
-<section id="slide-org8c3ff42">
-<h3 id="org8c3ff42">Day 2</h3>
+<section id="slide-org689fa6d">
+<h4 id="org689fa6d"><span class="section-number-4">1.4.2</span> Day 2</h4>
 <ul>
 <li>Algebra</li>
 <li>Data</li>
@@ -109,56 +198,49 @@ and  classroom activities adaptable for a range of ages,</li>
 </ul>
 
 </section>
+<section id="slide-org6a59b5b">
+<h3 id="org6a59b5b"><span class="section-number-3">1.5</span> Activities</h3>
 </section>
-<section>
-<section id="slide-org5c954fc">
-<h2 id="org5c954fc">Activities</h2>
+<section id="slide-org5c22fe3">
+<h4 id="org5c22fe3"><span class="section-number-4">1.5.1</span> internet simulator (from code.org)</h4>
 </section>
-<section id="slide-org0ddc2f2">
-<h3 id="org0ddc2f2">internet simulator (from code.org)</h3>
+<section id="slide-org3afd582">
+<h4 id="org3afd582"><span class="section-number-4">1.5.2</span> github portfolio site (from jmcloone)</h4>
 </section>
-<section id="slide-org8855637">
-<h3 id="org8855637">github portfolio site (from jmcloone)</h3>
+<section id="slide-orgdb71537">
+<h4 id="orgdb71537"><span class="section-number-4">1.5.3</span> email amnesty</h4>
 </section>
-<section id="slide-orged8578d">
-<h3 id="orged8578d">email amnesty</h3>
-</section>
-<section id="slide-orgd1995fe">
-<h3 id="orgd1995fe">computing in the news (from bjc)</h3>
+<section id="slide-org96623c1">
+<h4 id="org96623c1"><span class="section-number-4">1.5.4</span> computing in the news (from bjc)</h4>
 <aside class="notes">
 <p>
 bashcrawl (from [gitlab repo?])
 </p>
 
 </aside>
+
 </section>
-<section id="slide-orgd4a5f01">
-<h3 id="orgd4a5f01">student data analysis (from spepe)</h3>
+<section id="slide-orgd1271d6">
+<h4 id="orgd1271d6"><span class="section-number-4">1.5.5</span> student data analysis (from spepe)</h4>
 <p>
 csunplugged, gsheets, code.org internet, bashcrawl
 </p>
 
 </section>
+<section id="slide-orgdc17519">
+<h3 id="orgdc17519"><span class="section-number-3">1.6</span> Parking Lot</h3>
 </section>
-<section>
-<section id="slide-orgda7d367">
-<h2 id="orgda7d367">Parking Lot</h2>
+<section id="slide-orgb070101">
+<h3 id="orgb070101"><span class="section-number-3">1.7</span> Roles</h3>
 
 </section>
-</section>
-<section>
-<section id="slide-org8582212">
-<h2 id="org8582212">Roles</h2>
-</section>
-</section>
-<section>
-<section id="slide-org91e8b60">
-<h2 id="org91e8b60">Global roles</h2>
-<div class="outline-text-2" id="text-org91e8b60">
+<section id="slide-org0905ba8">
+<h3 id="org0905ba8"><span class="section-number-3">1.8</span> Global roles</h3>
+<div class="outline-text-3" id="text-1-8">
 </div>
 </section>
-<section id="slide-orgb9e7047">
-<h3 id="orgb9e7047">Reporter</h3>
+<section id="slide-org1c128f1">
+<h4 id="org1c128f1"><span class="section-number-4">1.8.1</span> Reporter</h4>
 <ul>
 <li>maintain parking lot,</li>
 <li>record and report back,</li>
@@ -167,8 +249,8 @@ csunplugged, gsheets, code.org internet, bashcrawl
 </ul>
 
 </section>
-<section id="slide-org82663a9">
-<h3 id="org82663a9">Time keeper</h3>
+<section id="slide-org7877ce9">
+<h4 id="org7877ce9"><span class="section-number-4">1.8.2</span> Time keeper</h4>
 <ul>
 <li>monitor lecture length</li>
 <li>monitor break length</li>
@@ -177,35 +259,34 @@ csunplugged, gsheets, code.org internet, bashcrawl
 </ul>
 
 </section>
-<section id="slide-org3e71dfc">
-<h3 id="org3e71dfc">Facilitator</h3>
-
+<section id="slide-org138f5d8">
+<h4 id="org138f5d8"><span class="section-number-4">1.8.3</span> Facilitator</h4>
 </section>
-</section>
-<section>
-<section id="slide-orge50f672">
-<h2 id="orge50f672">Team Roles</h2>
-<div class="outline-text-2" id="text-orge50f672">
+<section id="slide-orged960f2">
+<h3 id="orged960f2"><span class="section-number-3">1.9</span> Team Roles</h3>
+<div class="outline-text-3" id="text-1-9">
 </div>
 </section>
-<section id="slide-orgaec851a">
-<h3 id="orgaec851a">Reporter</h3>
+<section id="slide-orgc25e535">
+<h4 id="orgc25e535"><span class="section-number-4">1.9.1</span> Reporter</h4>
 <ul>
 <li>record and report team conversation</li>
 <li>special focus on parking lot questions</li>
 
 </ul>
+
 </section>
-<section id="slide-org95d2fb1">
-<h3 id="org95d2fb1">Time keeper</h3>
+<section id="slide-orgdf8b5d7">
+<h4 id="orgdf8b5d7"><span class="section-number-4">1.9.2</span> Time keeper</h4>
 <ul>
 <li>keep us honest</li>
 <li>special focus on timing of activities and balanced group participation</li>
 
 </ul>
+
 </section>
-<section id="slide-org6c6455d">
-<h3 id="org6c6455d">Facilitator</h3>
+<section id="slide-org70aabd8">
+<h4 id="org70aabd8"><span class="section-number-4">1.9.3</span> Facilitator</h4>
 <ul>
 <li>know what "we are supposed to be doing right now"</li>
 <li>special focus on tasks, deliverables/goals/objectives, and flow</li>
@@ -213,61 +294,104 @@ csunplugged, gsheets, code.org internet, bashcrawl
 </ul>
 
 </section>
-</section>
-<section>
-<section id="slide-orgc65fab9">
-<h2 id="orgc65fab9">Computing in the news</h2>
-<div class="outline-text-2" id="text-orgc65fab9">
-</div>
-</section>
-<section id="slide-org3961792">
-<h4 id="org3961792">Resources</h4>
+<section id="slide-org2549691">
+<h3 id="org2549691"><span class="section-number-3">1.10</span> Teams</h3>
 <p>
-<a href="https://technews.acm.org
-">ACM Technews</a> 
+Round Robin algorithm
 </p>
 
+</section>
+</section>
+<section>
+<section id="slide-org5270621">
+<h2 id="org5270621"><span class="section-number-2">2</span> Day 2</h2>
+</section>
+<section id="slide-orgfc023bc">
+<h3 id="orgfc023bc"><span class="section-number-3">2.1</span> Computing in the news</h3>
+<div class="outline-text-3" id="text-2-1">
+</div>
+<ol class="org-ol">
+<li><a id="org9eafb7a"></a>Resources<br />
+<p>
+<a href="https://technews.acm.org">ACM Technews</a> 
+</p>
+
+</section>
+<section id="slide-org9eafb7a-split">
+
+<h5><span class="section-number-5">2.1.0.1</span> Resources</h5>
+<p>
+An artificial intelligence (AI) software solution developed by Intel and Classroom Technologies to identify students' emotional states is generating controversy in the context of ethics and privacy.
+</p>
+
+<p>
+<a href="https://www.tomshardware.com/news/intel-students-ai-controversy">Intel Develops AI to Detect Emotional States of Students - Tom's Hardware 2022-04-27</a>
+</p>
+
+</section>
+<section id="slide-org9eafb7a-split">
+
+<h5><span class="section-number-5">2.1.0.1</span> Resources</h5>
 <p>
 University of California, San Diego (UCSD) computer scientists have
   developed algorithms to keep offensive speech from being generated
-  by online chatbots.  Cleaning Up Online Bots' Act—and Speech UC San
-  Diego News Center
+  by online chatbots.  
 </p>
-</section>
-<section id="slide-org3961792-split">
 
-<h4>Resources</h4>
+<p>
+<a href="https://ucsdnews.ucsd.edu/pressrelease/cleaning-up-online-bots-act-and-speech">Cleaning Up Online Bots' Act—and Speech - UC San Diego News Center 2022-04-25</a>
+</p>
+
+</section>
+<section id="slide-org9eafb7a-split">
+
+<h5><span class="section-number-5">2.1.0.1</span> Resources</h5>
 <p>
 Robots are socialize with nursing home residents, telling them jokes
-  and leading their yoga classes. Can Robots Save Nursing Homes?  The
-New York Times
+  and leading their yoga classes. Can Robots Save Nursing Homes? 
 </p>
-</section>
-<section id="slide-org3961792-split">
 
-<h4>Resources</h4>
+<p>
+<a href="https://www.nytimes.com/2022/04/21/realestate/nursing-home-robots.html">Nursing Home Robots- The New York Times 2022-04-25</a>
+</p>
+
+</section>
+<section id="slide-org9eafb7a-split">
+
+<h5><span class="section-number-5">2.1.0.1</span> Resources</h5>
+
+<p>
+The app-analytics firm Sensor Tower Inc. found that 1 out of 10 mobile games used bots at the beginning of 2016, a figure that has risen to 7 of the 10 most-played mobile games. 
+</p>
+
+<p>
+<a href="https://www.wsj.com/articles/friend-or-bot-phony-gamers-leave-players-feeling-betrayed-11650377760">Friend or Bot? Phony Gamers Leave Players Feeling Betrayed - The Wall Street Journal 2022-04-25</a>
+</p>
+
+</section>
+<section id="slide-org9eafb7a-split">
+
+<h5><span class="section-number-5">2.1.0.1</span> Resources</h5>
 <p>
 University of Georgia researchers created a model to help identify
   locations best suited for conservation. Improving Georgia Land
 </p>
 
 <p>
-Conservation Through Algorithms UGA Today
+<a href="https://news.uga.edu/improving-georgia-land-conservation-through-algorithms/">Conservation Through Algorithms - UGA Today</a>
 </p>
+</li>
 
+<li><a id="orga05ba70"></a>Connections<br /></li>
+</ol>
 </section>
-<section id="slide-org702a055">
-<h4 id="org702a055">Connections</h4>
-</section>
-</section>
-<section>
-<section id="slide-org7e28249">
-<h2 id="org7e28249">Let's talk about the internet</h2>
-<div class="outline-text-2" id="text-org7e28249">
+<section id="slide-orgedf227c">
+<h3 id="orgedf227c"><span class="section-number-3">2.2</span> Let's talk about the internet</h3>
+<div class="outline-text-3" id="text-2-2">
 </div>
 </section>
-<section id="slide-org3d37876">
-<h3 id="org3d37876">Code.org internet simulator</h3>
+<section id="slide-orgb11ca9d">
+<h4 id="orgb11ca9d"><span class="section-number-4">2.2.1</span> Code.org internet simulator</h4>
 <aside class="notes">
 <p>
 What needs to go in the presentation? A presentation about the
@@ -275,22 +399,16 @@ internet simulator. What do we need to know?
 </p>
 
 </aside>
-</section>
-<section id="slide-org937ffaa">
-<h4 id="org937ffaa">Internet Simulator Overview</h4>
-</section>
-<section id="slide-org6b90e31">
-<h4 id="org6b90e31">Activity Send/Receive a Bit</h4>
-</section>
-<section id="slide-orgf472916">
-<h4 id="orgf472916">Activity Send/Receive a Word</h4>
-</section>
-<section id="slide-org2543d73">
-<h4 id="org2543d73">Activity Send/Receive/Confirm a Word</h4>
 
+<ol class="org-ol">
+<li><a id="org0d1ab3f"></a>Internet Simulator Overview<br /></li>
+<li><a id="orgb710684"></a>Activity Send/Receive a Bit<br /></li>
+<li><a id="orgf241f83"></a>Activity Send/Receive a Word<br /></li>
+<li><a id="orgf65d397"></a>Activity Send/Receive/Confirm a Word<br /></li>
+</ol>
 </section>
-<section id="slide-org0713eb5">
-<h3 id="org0713eb5">Protocols and Abstraction Layers</h3>
+<section id="slide-org0e276e8">
+<h4 id="org0e276e8"><span class="section-number-4">2.2.2</span> Protocols and Abstraction Layers</h4>
 <aside class="notes">
 <p>
 This is where we talk about how the protocol is separate from the
@@ -303,60 +421,49 @@ from each other.
 
 </aside>
 
+<ol class="org-ol">
+<li><a id="orga7df1ad"></a>Do one job<br /></li>
+</ol>
 </section>
-<section id="slide-org59dab56">
-<h4 id="org59dab56">Do one job</h4>
-
-</section>
-<section id="slide-org67acd9b">
-<h3 id="org67acd9b">Packets and redundancy</h3>
+<section id="slide-org5daaff3">
+<h4 id="org5daaff3"><span class="section-number-4">2.2.3</span> Packets and redundancy</h4>
 <p>
 So how do messages get from one place to another
 </p>
+
+<ol class="org-ol">
+<li><a id="org8955884"></a>Jumps<br /></li>
+<li><a id="org53e4028"></a>Redundancy<br /></li>
+<li><a id="org4818ce0"></a>Undersea cables<br /></li>
+<li><a id="orgb4220d5"></a>Security<br /></li>
+<li><a id="org83cd407"></a>Passwords<br /></li>
+</ol>
 </section>
-<section id="slide-orge4a8ab3">
-<h4 id="orge4a8ab3">Jumps</h4>
+<section id="slide-orgf18f827">
+<h4 id="orgf18f827"><span class="section-number-4">2.2.4</span> Connections</h4>
 </section>
-<section id="slide-org5974d54">
-<h4 id="org5974d54">Redundancy</h4>
-</section>
-<section id="slide-orge6d05d2">
-<h4 id="orge6d05d2">Undersea cables</h4>
-</section>
-<section id="slide-org8557e8e">
-<h4 id="org8557e8e">Security</h4>
-</section>
-<section id="slide-org5e530a3">
-<h4 id="org5e530a3">Passwords</h4>
-</section>
-<section id="slide-org56f218c">
-<h3 id="org56f218c">Connections</h3>
-</section>
-<section id="slide-orgfd728c6">
-<h3 id="orgfd728c6">Resources</h3>
+<section id="slide-org58352c6">
+<h4 id="org58352c6"><span class="section-number-4">2.2.5</span> Resources</h4>
 <p>
 Tubes: Journey to the center of the internet (teacher knowledge base)
 </p>
+
 </section>
-</section>
-<section>
-<section id="slide-org26d4b56">
-<h2 id="org26d4b56">Let's talk about computers</h2>
-<div class="outline-text-2" id="text-org26d4b56">
+<section id="slide-org66593b5">
+<h3 id="org66593b5"><span class="section-number-3">2.3</span> Let's talk about computers</h3>
+<div class="outline-text-3" id="text-2-3">
 </div>
-</section>
-<section id="slide-org3ee2cb0">
-<h4 id="org3ee2cb0">Computers</h4>
+<ol class="org-ol">
+<li><a id="org2d9de76"></a>Computers<br />
 <p>
 From person to machine
 Navigation, star charting, understanding the cosmos
 All data analysis with huge computations
 Aids like the abacus add mechanical memory to the computation process
 </p>
+</li>
 
-</section>
-<section id="slide-orgd5f7e98">
-<h4 id="orgd5f7e98">Switches</h4>
+<li><a id="org427073d"></a>Switches<br />
 <p>
 Flashlights, Telegraph, Boolean Algebra
 </p>
@@ -373,43 +480,41 @@ Electronic switches are fast.
 Translate computational problems into binary problems and give it to
 the machine
 </p>
-</section>
-<section id="slide-org7f84b4a">
-<h4 id="org7f84b4a">Structure</h4>
+</li>
+
+<li><a id="orgdbe5d17"></a>Structure<br />
 <p>
 Programming a computer means working with the structural precision required by
 computers. Computers consume data, apply instructions to transform
 that data, and produce results in some form that we can use.
 </p>
+</li>
 
-</section>
-<section id="slide-org58404de">
-<h4 id="org58404de">Resources</h4>
+<li><a id="org50fddf4"></a>Resources<br />
 <ul>
 <li>Code: The hidden language of computing machines</li>
 <li><a href="https://nand2tetris.org">Nand2Tetris</a></li>
 <li><a href="https://mouse.org">Mouse</a></li>
 
 </ul>
+</li>
+
+<li><a id="org9b1b720"></a>Connections<br /></li>
+</ol>
 </section>
-<section id="slide-org1a47991">
-<h4 id="org1a47991">Connections</h4>
-</section>
-</section>
-<section>
-<section id="slide-org3672a72">
-<h2 id="org3672a72">Let's talk about web creation and portfolio sites</h2>
-<div class="outline-text-2" id="text-org3672a72">
+<section id="slide-org36c4f81">
+<h3 id="org36c4f81"><span class="section-number-3">2.4</span> Let's talk about web creation and portfolio sites</h3>
+<div class="outline-text-3" id="text-2-4">
 </div>
 </section>
-<section id="slide-org5b4f42c">
-<h3 id="org5b4f42c">Choosing tools</h3>
+<section id="slide-org7ae3ab5">
+<h4 id="org7ae3ab5"><span class="section-number-4">2.4.1</span> Choosing tools</h4>
 </section>
-<section id="slide-orgec84af9">
-<h3 id="orgec84af9">Motivating Web Creation</h3>
+<section id="slide-orgdf5f8e0">
+<h4 id="orgdf5f8e0"><span class="section-number-4">2.4.2</span> Motivating Web Creation</h4>
 </section>
-<section id="slide-org56dd3aa">
-<h3 id="org56dd3aa">Markup languages</h3>
+<section id="slide-org8164c1d">
+<h4 id="org8164c1d"><span class="section-number-4">2.4.3</span> Markup languages</h4>
 <ul>
 <li>A lighter introduction to structured text</li>
 <li>HTML is a markup language</li>
@@ -420,9 +525,10 @@ that data, and produce results in some form that we can use.
 <li>HTML</li>
 
 </ul>
+
 </section>
-<section id="slide-org389816d">
-<h3 id="org389816d">Symbols</h3>
+<section id="slide-orgeb54e1a">
+<h4 id="orgeb54e1a"><span class="section-number-4">2.4.4</span> Symbols</h4>
 <aside class="notes">
 <p>
 How do we tell
@@ -431,9 +537,10 @@ instructions?
 </p>
 
 </aside>
+
 </section>
-<section id="slide-org8f011ed">
-<h3 id="org8f011ed">HTML Tags</h3>
+<section id="slide-orgca211b2">
+<h4 id="orgca211b2"><span class="section-number-4">2.4.5</span> HTML Tags</h4>
 <aside class="notes">
 <p>
 Compare indenting in a word process &#x2013; hit tab, see the word move &#x2013;
@@ -443,16 +550,14 @@ can recognize. In HTML the symbols are called tags and use the "&lt;" and
 </p>
 
 </aside>
+
 </section>
-</section>
-<section>
-<section id="slide-org0af1096">
-<h2 id="org0af1096">Let's talk about email</h2>
-<div class="outline-text-2" id="text-org0af1096">
+<section id="slide-org03f90ba">
+<h3 id="org03f90ba"><span class="section-number-3">2.5</span> Let's talk about email</h3>
+<div class="outline-text-3" id="text-2-5">
 </div>
-</section>
-<section id="slide-orgbf23317">
-<h4 id="orgbf23317">Locations: labels, tags, folders</h4>
+<ol class="org-ol">
+<li><a id="orgea4abf8"></a>Locations: labels, tags, folders<br />
 <p>
 Folders remind us of putting a piece of paper in a filing cabinet.
 </p>
@@ -466,9 +571,9 @@ them.
 <p>
 In a labeling system items can exist in more than one location.
 </p>
-</section>
-<section id="slide-org6e30455">
-<h4 id="org6e30455">Archive, Star, Delete</h4>
+</li>
+
+<li><a id="org2d9425d"></a>Archive, Star, Delete<br />
 <dl>
 <dt>Archive</dt><dd>remove the inbox label</dd>
 <dt>Star</dt><dd>add a star</dd>
@@ -476,10 +581,9 @@ In a labeling system items can exist in more than one location.
 <dt>Delete</dt><dd>remove all labels and add a "Trash" label</dd>
 
 </dl>
+</li>
 
-</section>
-<section id="slide-org8ab4e53">
-<h4 id="org8ab4e53">Analyze</h4>
+<li><a id="orga9fea1e"></a>Analyze<br />
 <p>
 What kind of messages are you receiving?
 </p>
@@ -489,10 +593,9 @@ Students were getting ten messages per day alerting them to various
 activity on the platforms we set up for them: digital classroom,
 communication blasts, attendance
 </p>
+</li>
 
-</section>
-<section id="slide-org5675d24">
-<h4 id="org5675d24">Process</h4>
+<li><a id="org073a2f6"></a>Process<br />
 <p>
 Inbox -&gt; Starred -&gt; Archive
 g i s e
@@ -506,18 +609,18 @@ Inbox -&gt; Trash
 Inbox -&gt; Reply
 r
 </p>
-</section>
-<section id="slide-org1ed05f1">
-<h4 id="org1ed05f1">Stars and flags</h4>
+</li>
+
+<li><a id="orgfd20482"></a>Stars and flags<br />
 <ul>
 <li>Starred is the activity section</li>
 <li>Multiple stars can represent different kinds of action</li>
 <li></li>
 
 </ul>
-</section>
-<section id="slide-orgbd451e1">
-<h4 id="orgbd451e1">Filters</h4>
+</li>
+
+<li><a id="org3a4e099"></a>Filters<br />
 <p>
 Inbox is a filter. A filter catches some values and let's others
 through. Inbox shows us messages that contain the metadata "Inbox". 
@@ -527,75 +630,54 @@ through. Inbox shows us messages that contain the metadata "Inbox".
 Starred or flagged is a filter for all messages containing a metadata
 star or flag. 
 </p>
-</section>
-<section id="slide-org3601dce">
-<h4 id="org3601dce">Rules</h4>
+</li>
 
+<li><a id="org7afd811"></a>Rules<br /></li>
+<li><a id="org76ecb7f"></a>Notifications<br /></li>
+<li><a id="org1974869"></a>Connections<br /></li>
+</ol>
 </section>
-<section id="slide-org9b5beeb">
-<h4 id="org9b5beeb">Notifications</h4>
-
-</section>
-<section id="slide-orgdf34360">
-<h4 id="orgdf34360">Connections</h4>
-</section>
-</section>
-<section>
-<section id="slide-org15f1f15">
-<h2 id="org15f1f15">Let's talk about running a computer lab</h2>
-<div class="outline-text-2" id="text-org15f1f15">
+<section id="slide-orgf5de00b">
+<h3 id="orgf5de00b"><span class="section-number-3">2.6</span> Let's talk about running a computer lab</h3>
+<div class="outline-text-3" id="text-2-6">
 </div>
-</section>
-<section id="slide-org31061a8">
-<h4 id="org31061a8">Room layout</h4>
-</section>
-<section id="slide-org675d1ea">
-<h4 id="org675d1ea">Monitoring and Circulation</h4>
-</section>
-<section id="slide-org38da0b1">
-<h4 id="org38da0b1">Structure</h4>
-</section>
-<section id="slide-org1949022">
-<h4 id="org1949022">Rapport</h4>
-</section>
-<section id="slide-org6038695">
-<h4 id="org6038695">Software</h4>
-</section>
-<section id="slide-org43208f1">
-<h4 id="org43208f1">Debugging</h4>
-</section>
-<section id="slide-org6a8ef06">
-<h4 id="org6a8ef06">Seating Charts and Pair Programming</h4>
-</section>
-<section id="slide-org1d716cf">
-<h4 id="org1d716cf">Work products: analog and digital</h4>
-</section>
-<section id="slide-org2f7bf56">
-<h4 id="org2f7bf56">Assessment:  cultivating success</h4>
+<ol class="org-ol">
+<li><a id="org18cef72"></a>Room layout<br /></li>
+<li><a id="org53be7ab"></a>Monitoring and Circulation<br /></li>
+<li><a id="org35177ec"></a>Structure<br /></li>
+<li><a id="orgae207f3"></a>Rapport<br /></li>
+<li><a id="org0ebe57e"></a>Software<br /></li>
+<li><a id="org3cff307"></a>Debugging<br /></li>
+<li><a id="orgcc26a2f"></a>Seating Charts and Pair Programming<br /></li>
+<li><a id="org8e5c007"></a>Work products: analog and digital<br /></li>
+<li><a id="org002fad8"></a>Assessment:  cultivating success<br /></li>
+</ol>
 
 </section>
 </section>
 <section>
-<section id="slide-orgec1d7da">
-<h2 id="orgec1d7da">Computing in the news</h2>
-<div class="outline-text-2" id="text-orgec1d7da">
+<section id="slide-org962cd5c">
+<h2 id="org962cd5c"><span class="section-number-2">3</span> Day 2</h2>
+</section>
+<section id="slide-orgb025460">
+<h3 id="orgb025460"><span class="section-number-3">3.1</span> Computing in the news</h3>
+<div class="outline-text-3" id="text-3-1">
 </div>
 </section>
-<section id="slide-org5d15218">
-<h3 id="org5d15218">Resources</h3>
+<section id="slide-org630aee3">
+<h4 id="org630aee3"><span class="section-number-4">3.1.1</span> Resources</h4>
 <p>
 technews.acm.org
 </p>
+
 </section>
-</section>
-<section>
-<section id="slide-org67bc413">
-<h2 id="org67bc413">Let's talk about algebra</h2>
-<div class="outline-text-2" id="text-org67bc413">
+<section id="slide-org92f6276">
+<h3 id="org92f6276"><span class="section-number-3">3.2</span> Let's talk about algebra</h3>
+<div class="outline-text-3" id="text-3-2">
 </div>
 </section>
-<section id="slide-org76d9390">
-<h3 id="org76d9390">Equations</h3>
+<section id="slide-org8ee4fe1">
+<h4 id="org8ee4fe1"><span class="section-number-4">3.2.1</span> Equations</h4>
 <p>
 Computer science can help us use precision in mathematics.
 </p>
@@ -608,9 +690,10 @@ What is an equation?
 Have you ever refered to an equation as
 containing the answer?
 </p>
+
 </section>
-<section id="slide-org6dd6d15">
-<h3 id="org6dd6d15">Functions</h3>
+<section id="slide-org258a041">
+<h4 id="org258a041"><span class="section-number-4">3.2.2</span> Functions</h4>
 <p>
 Repeatable computational abstractions
 The target of elementary and middle school mathematics is modeling and
@@ -625,9 +708,10 @@ includes what we mean by functions in algebra.
 <p>
 Notice what changes, collect and plot data, predict/interpolate values
 </p>
+
 </section>
-<section id="slide-org2f3f533">
-<h3 id="org2f3f533">Examples</h3>
+<section id="slide-org6968ac0">
+<h4 id="org6968ac0"><span class="section-number-4">3.2.3</span> Examples</h4>
 <p>
 A right circular cone has a height of 11 centimeters and a diameter of
 7 centimeters. What is the approximate volume, in cubic centimeters,
@@ -640,9 +724,10 @@ of the cone?
 <li></li>
 
 </ul>
+
 </section>
-<section id="slide-orgdcbe156">
-<h3 id="orgdcbe156">Imagine data entities</h3>
+<section id="slide-org5464eba">
+<h4 id="org5464eba"><span class="section-number-4">3.2.4</span> Imagine data entities</h4>
 <p>
 Data entities are elements of our world that we might want to track as data.
 </p>
@@ -658,20 +743,14 @@ associated with a student are attendance, credits, biographicals.
 </p>
 
 </section>
+<section id="slide-org2540907">
+<h3 id="org2540907"><span class="section-number-3">3.3</span> Let's talk about spreadsheets</h3>
 </section>
-<section>
-<section id="slide-orgf736999">
-<h2 id="orgf736999">Let's talk about spreadsheets</h2>
+<section id="slide-org347f201">
+<h3 id="org347f201"><span class="section-number-3">3.4</span> Let's talk about data science</h3>
 </section>
-</section>
-<section>
-<section id="slide-orgea9c3c3">
-<h2 id="orgea9c3c3">Let's talk about data science</h2>
-</section>
-</section>
-<section>
-<section id="slide-orge911604">
-<h2 id="orge911604">Let's talk about filters and sorts</h2>
+<section id="slide-orgb5aa238">
+<h3 id="orgb5aa238"><span class="section-number-3">3.5</span> Let's talk about filters and sorts</h3>
 <p>
 So I'm trying to find a stereo on best buy
 </p>
