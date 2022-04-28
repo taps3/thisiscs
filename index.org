@@ -1,22 +1,19 @@
-#+STARTUP: overview
+#+STARTUP: beamer overview
 #+TITLE: So This is CS!
 #+AUTHOR: Eric Allatta
 #+EMAIL: ericallatta@gmail.com
 
-#+REVEAL_INIT_OPTIONS: slideNumber:false, transition:'none', controlsTutorial: false, navigationMode: 'grid'
-#+REVEAL_ROOT: reveal.js
-#+REVEAL_THEME: simple
+#+OPTIONS: toc:nil num:nil
+#+LATEX_CLASS: beamer
+#+LATEX_CLASS_OPTIONS: [presentation]
+#+BEAMER_THEME: Berkeley
+#+BEAMER_COLOR_THEME: seagull
 
+#+REVEAL_INIT_OPTIONS: slideNumber:false, transition:'none', controlsTutorial: false, navigationMode: 'default'
+#+REVEAL_ROOT: reveal.js
+#+REVEAL_HLEVEL: 1
+#+REVEAL_THEME: simple
 * Preamble
-:PROPERTIES:
-:reveal_overview: t
-:EXPORT_AUTHOR: Eric Allatta
-:EXPORT_TITLE: So This is CS!
-:EXPORT_EMAIL: ericallatta@gmail.com
-:EXPORT_OPTIONS: toc:nil num:nil reveal_keyboard:t reveal_overview:t
-:EXPORT_REVEAL_HLEVEL: 3
-:EXPORT_REVEAL_MARGIN: 200
-:END:
 ** Welcome!
    :PROPERTIES:
    :BEAMER_COL: 0.48
@@ -131,16 +128,7 @@
 
  Round Robin algorithm
 
-* Day 2
-:PROPERTIES:
-:reveal_overview: t
-:EXPORT_AUTHOR: Eric Allatta
-:EXPORT_TITLE: So This is CS!
-:EXPORT_EMAIL: ericallatta@gmail.com
-:EXPORT_OPTIONS: toc:nil num:nil reveal_keyboard:t reveal_overview:t
-:EXPORT_REVEAL_HLEVEL: 3
-:EXPORT_REVEAL_MARGIN: 200
-:END:
+* Day 1
 ** Computing in the news
 **** Resources
 
@@ -342,15 +330,6 @@
 **** Assessment:  cultivating success
 
 * Day 2
-:PROPERTIES:
-:reveal_overview: t
-:EXPORT_AUTHOR: Eric Allatta
-:EXPORT_TITLE: So This is CS!
-:EXPORT_EMAIL: ericallatta@gmail.com
-:EXPORT_OPTIONS: toc:nil num:nil reveal_keyboard:t reveal_overview:t
-:EXPORT_REVEAL_HLEVEL: 3
-:EXPORT_REVEAL_MARGIN: 200
-:END:
 ** Computing in the news
 *** Resources
 
