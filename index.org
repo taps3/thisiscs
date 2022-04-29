@@ -9,21 +9,24 @@
 #+BEAMER_THEME: Berkeley
 #+BEAMER_COLOR_THEME: seagull
 
-#+REVEAL_INIT_OPTIONS: slideNumber:false, transition:'none', controlsTutorial: false, navigationMode: 'default'
+#+REVEAL_INIT_OPTIONS: hashOneBasedIndex: true, hash: true, slideNumber:false, transition:'none', controlsTutorial: false, navigationMode: 'default'
 #+REVEAL_ROOT: reveal.js
 #+REVEAL_HLEVEL: 1
 #+REVEAL_THEME: simple
+#+REVEAL_EXTRA_CSS: local.css
 
 * Preamble :noexport_reveal:
-* Welcome!
+* Welcome to So this is CS!
   :PROPERTIES:
   :BEAMER_COL: 0.48
   :BEAMER_ENV: block
   :END:
 
-   Welcome to So this is CS!
+#+REVEAL_HTML: <small>
 Press S for speaker notes
+
 Press O for slides overview
+#+REVEAL_HTML: </small>
 #+BEGIN_NOTES
 A Great note
 #+END_NOTES
@@ -33,16 +36,17 @@ A Great note
   :BEAMER_ENV: block
   :END:
 
-   - Father (Joy, 11; Bruce, 6; Rose, 18m)
+   - Husband to Jill and Father to Joy (11), Bruce (6), and Rose (18m)
    - Freelance designer, builder, teacher
    - 10 years in NYC public schools
-   - Founding computer science teacher of the Academy for Software Engineering
+   - Founding computer science teacher of the Academy for Software
+     Engineering
 #+ATTR_ORG: :width 100px
 #+ATTR_LATEX: :width 3cm 
 #+ATTR_HTML: :height 300px
 [[file:./assets/family.jpg]]
 
-* Big picture
+* The Big picture
   :PROPERTIES:
   :BEAMER_COL: 0.48
   :BEAMER_ENV: block
@@ -55,37 +59,20 @@ Particpants will...
   - and solve school-based problems with spreadsheet data engineering.
 
 * The Plan
-** Day 1
+** Part 1
 
 - Computing in the News
-- The internet
+- Computers
+- The Internet
 - Portfolio Sites
 - Email
 
-** Day 2
+** Part 2
 
 - Algebra
-- Data
+- Spreadsheets
+- Data Science
 - Programming
-
-* Activities
-  :PROPERTIES:
-  :BEAMER_COL: 0.48
-  :BEAMER_ENV: block
-  :END:
-
-** internet simulator (from code.org)
-** github portfolio site (from jmcloone)
-** email amnesty
-** computing in the news (from bjc)
-
-#+BEGIN_NOTES
- bashcrawl (from [gitlab repo?])
-#+END_NOTES
-
-** student data analysis (from spepe)
-
-csunplugged, gsheets, code.org internet, bashcrawl
 
 * Anchor Doc + parking lot
 
@@ -103,12 +90,14 @@ Roles describe areas of focus during team or group activities.
 A person can focus on more than one role or a role can be divided between multiple people.
 #+ATTR_REVEAL: :frag (appear)
 More roles can be added but the core roles should always be present.
+
+#+REVEAL: split:t
 #+ATTR_REVEAL: :frag (appear) 
 - Reporter
 - Time keeper
 - Facilitator
 
-* Global roles
+** Global roles
 ** Reporter
 
 - maintain parking lot,
@@ -122,7 +111,7 @@ More roles can be added but the core roles should always be present.
 - call out timing alerts, convey pacing consensus
 
 ** Facilitator
-* Team Roles
+** Local Roles
 ** Reporter
 
   - record and report team conversation
@@ -160,40 +149,7 @@ answer would even make sense here? What units? What range of values?
 What constraints? What motivations?
 #+END_NOTES
 
-* Part 1 :noexport_reveal:
-* Let's talk about computers
-** Computers
-   :PROPERTIES:
-   :CREATED:  [2022-04-28 Thu 19:19]
-   :END:
-
-consume data (which includes instructions), transform it using instructions (which can be sealed out for new instructions), and return some useful result. 
-
-#+REVEAL: split:t
-
-From person to machine
-Navigation, star charting, understanding the cosmos
-All data analysis with huge computations
-Aids like the abacus add mechanical memory to the computation process
-
-** Switches
-
-Flashlights, Telegraph, Boolean Algebra
-
-On/Off languages, binary languages, binary algebra
-
-Electronic and photonic switches are fast.
-
-Translate computational problems into binary problems and give it to
-the machine
-
-** Structure
-
-Programming a computer means working with the structural precision required by
-computers. Computers consume data, apply instructions to transform
-that data, and produce results in some form that we can use.
-
-** Computing in the news
+* Computing in the news
 
 #+BEGIN_NOTES 
  I've collected 4 stories that We're in print this week and and represent examples of computing in the wild. We'll read each headline they will set up breakout rooms for each of the different articles you'll choose an article to read and then visit that break out room. The goal is to find the computer in the article
@@ -234,17 +190,77 @@ University of Georgia researchers created a model to help identify
 [[https://news.uga.edu/improving-georgia-land-conservation-through-algorithms/][Conservation Through Algorithms - UGA Today]]
 
 *** Connections
+* Part 1 :noexport_reveal:
+* Let's talk about computers
+** Computers
+   :PROPERTIES:
+   :CREATED:  [2022-04-28 Thu 19:19]
+   :END:
+
+- consume data (which includes instructions), 
+- transform it using
+instructions (which can be sealed out for new instructions), and
+- return some useful result.
+
+** From person to machine
+
+The history of math and science, of celestial navigation, understanding the cosmos, and exploring the world around us, 
+
+Progress was made by taking large numbers of observations and searching for patterns;
+
+All examples of data analysis and computations --
+
+Long before what we now think of as a computer.
+
+#+REVEAL: split:t
+Mechanical aids like the abacus and rote algorithms add mechanical
+memory to the computation process.
+#+REVEAL: split:t
+
+First accomplished by human number crunchers later by electronic
+computers
+[[file:./assets/ENIACwomen.jpg]]
+
+** Switches
+
+Flashlights, Telegraph, Boolean Algebra
+
+On/Off languages, binary languages, binary algebra
+
+Electronic and photonic switches are fast.
+
+Translate computational problems into binary problems and give it to
+the machine
+
+** Structure
+
+Programming a computer means working with the structural precision required by
+computers. Computers consume data, apply instructions to transform
+that data, and produce results in some form that we can use.
+
+** Turing
+   :PROPERTIES:
+   :CREATED:  [2022-04-29 Fri 11:27]
+   :END:
+
+In 1936 Alan Turing described a machine that the could take an infinite list of data (memory) and a finite list of instructions to implement any algorithm. 
+
+#+REVEAL_HTML: <img src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Model_of_a_Turing_machine.jpg">
+** Connections
 ** Resources
 
 - Code: The hidden language of computing machines
 - [[https://nand2tetris.org][Nand2Tetris]]
 - [[https://mouse.org][Mouse]]
 - [[https://tecnews.acm.com][ACM TechNews]]
+- [[https://ideas.ted.com/how-i-discovered-six-pioneering-women-who-helped-create-modern-computers-and-why-we-should-never-forget-them/][How I discovered six pioneering women who helped create modern
+  computers and why we should never forget them]]
+- [[https://commons.wikimedia.org/wiki/File:Model_of_a_Turing_machine.jpg]]
 
 See speaker notes for additional context
 
 #+BEGIN_NOTES 
- Code is a great book if you've ever wondered how do computers work. It starts with a simple story about 2 children communicating with flashlight to cross the street And ends building a simple computer A piece is that you can think about yourself
+Code is a great book if you've ever wondered how do computers work. It starts with a simple story about 2 children communicating with flashlight to cross the street And ends building a simple computer A piece is that you can think about yourself
 
 Send to tetris take the step further and delivers an entire curriculum where you write code you write code to bill's computer parts that you then assemble andAnd that can be spoken to in a language
 
@@ -253,7 +269,6 @@ The mouse organization provides support and curriculum for technology clubs
 ACM Tech News is a great resource for students finding are for goals that are actually about computing computing. It is updated updated every other day and well archived
 #+END_NOTES 
 
-** Connections
 * Let's talk about the internet
 ** How am I Connected Boggel
    :PROPERTIES:
@@ -298,7 +313,7 @@ Develop a protocol that allows one bit to be sent back and forth using a metrono
 *** Activity Send/Receive a Word
 *** Activity Send/Receive/Confirm a Word
 ** Protocols and Abstraction Layers
-
+Do one job and don't repeat yourself!
 #+BEGIN_NOTES
 This is where we talk about how the protocol is separate from the
 technology. The big idea is the separation. A black box reduces the
@@ -308,34 +323,63 @@ change underneath the protocol. Each layer of the protocol is separate
 from each other.
 #+END_NOTES
 
-*** Do one job
-** Packets and redundancy
 
-So how do messages get from one place to another
+** Packets and Redundancy
 
-*** Jumps
-*** Redundancy
+So how do messages get from one place to another?
+
+*** Jumps :noexport_reveal:
+*** Redundancy 
 *** Undersea cables
-*** Security
+#+REVEAL_HTML: <img src=https://i0.wp.com/www.maproomblog.com/xq/wp-content/uploads/2022/04/submarine-cable-map-1024x728.jpg?ssl=1">
+*** Security :noexport_reveal:
 *** Passwords
 ** Connections
 ** Resources
+- [[https://www.submarinecablemap.com/]]
+- 
 
 Tubes: Journey to the center of the internet (teacher knowledge base)
 
 * Let's talk about web creation and portfolio sites
 ** Choosing tools
+- [[https://docs.google.com][Google Docs]]
+- [[https://sites.google.com][Google Sites]]
+- [[https://w3schools.com][W3schools]]
+- [[https://glitch.com][Glitch]]
+- [[https://github.com][GitHub]]
+
 ** Motivating Web Creation
+Google docs rule the academic lives of many students.
+
+Preformatted docs are often used to scaffold learning products.
+
+Freedom with structure offers ownership of digital creations.
+
+#+REVEAL: split:t
+*** Integration Tips
+- Offer web creation skills to other teachers as an alternate work
+product format. 
+- Work with students to create a home for all of their
+work products. 
+- Simplify assignment submissions by having students create pages to
+  on their site for different assignments to simplify submission and
+  develop a portfolio.
+
 ** Markup languages
 
 - A lighter introduction to structured text
-- HTML is a markup language
+- HTML is a markup language, not a programming language
 - Markup means using structure to tell a computer what things mean
-- 
-- HTML isn't the only option
-- HTML 
+- Markup is an alternative means of editing documents to wysiwyg
+  editors like Word, Docs, Pages, etc.
 
-** Symbols
+*** HTML isn't the only option
+**** Lightweight markup languages 
+- AsciiDoc, Markdown, Org-mode
+**** Heavier markup languages
+- Latex, HTML
+** Symbols and Syntax
 
 #+BEGIN_NOTES
 How do we tell
@@ -352,6 +396,15 @@ can recognize. In HTML the symbols are called tags and use the "<" and
 ">" symbols.
 #+END_NOTES
 
+** Activities
+*** Create a webpage using a google doc 
+[[file:./assets/w3schools_webpage_layout.png]]
+
+*** Try markdown
+[[https://markdownlivepreview.com/]]
+
+*** Follow a tutorial to create a GitHub Pages site
+[[http://jmcglone.com/guides/github-pages/]]
 * Let's talk about email
 ** Locations: labels, tags, folders
 
@@ -417,11 +470,6 @@ star or flag.
 ** Work products: analog and digital
 ** Assessment:  cultivating success
 * Part 2 :noexport_reveal:
-* Computing in the news
-** Resources
-
-technews.acm.org
-
 * Let's talk about algebra
 ** Equations
 
@@ -464,8 +512,48 @@ associated with a student are attendance, credits, biographicals.
 *Brainstorm* data entities from your own life.
 
 * Let's talk about spreadsheets
+** Fundamentals
+
+- Introduction to tables
+- Categorical and quantitative data
+- Viewing and creating filter views
+- Conditions in filter views
+
+** Warm Up
+   :LOGBOOK:
+   CLOCK: [2022-04-29 Fri 10:30]--[2022-04-29 Fri 10:31] =>  0:01
+   :END:
+Choose a question that speaks to you.
+Be prepared to say why you chose that question
+#+REVEAL_HTML: <small>
+- Which advisors are asked to make the most student outreach?
+- Do malesor females receive a higher proportion of attendance comments?
+- Whoare the "best" students in the 9th grade?
+- Which students have the most improved attendance?
+- Which words are most often used in comments about students?
+- Are students with high attendance more likely to earn credit for classes? 
+- Is a student only missing my class?
+- Did my outreach to a student's family two weeks ago positively
+  affect the students attendance?
+#+REVEAL_HTML: </small>
+#+BEGIN_NOTES
+Time: 1 min
+#+END_NOTES
+
+** Objectives
+
+Participants will be able to...
+- name and describe the parts of given tables,
+- and distinguish between types of data and data representations in a
+  given table.
+
+** Data
+
+often means information about the world around us represented in a
+structure that can be read by computers
+
 * Let's talk about data science
-* Let's talk about filters and sorts
+** Filters and sorts
 
    So I'm trying to find a stereo on best buy
 
