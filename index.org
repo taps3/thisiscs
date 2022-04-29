@@ -21,7 +21,9 @@
   :BEAMER_ENV: block
   :END:
 
-   Welcome to So This is CS!
+   Welcome to So this is CS!
+Press S for speaker notes
+Press O for slides overview
 #+BEGIN_NOTES
 A Great note
 #+END_NOTES
