@@ -245,6 +245,7 @@ that data, and produce results in some form that we can use.
 In 1936 Alan Turing described a machine that the could take an infinite list of data (memory) and a finite list of instructions to implement any algorithm. 
 
 #+REVEAL_HTML: <img src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Model_of_a_Turing_machine.jpg">
+
 ** Connections
 ** Resources
 
@@ -312,6 +313,7 @@ Develop a protocol that allows one bit to be sent back and forth using a metrono
 *** Activity Send/Receive a Word
 *** Activity Send/Receive/Confirm a Word
 ** Protocols and Abstraction Layers
+
 Do one job and don't repeat yourself!
 #+BEGIN_NOTES
 This is where we talk about how the protocol is separate from the
@@ -322,19 +324,21 @@ change underneath the protocol. Each layer of the protocol is separate
 from each other.
 #+END_NOTES
 
-
 ** Packets and Redundancy
 
 So how do messages get from one place to another?
 
 *** Jumps :noexport_reveal:
-*** Redundancy 
+*** Redundancy
 *** Undersea cables
+
 #+REVEAL_HTML: <img src=https://i0.wp.com/www.maproomblog.com/xq/wp-content/uploads/2022/04/submarine-cable-map-1024x728.jpg?ssl=1">
+
 *** Security :noexport_reveal:
 *** Passwords
 ** Connections
 ** Resources
+
 - [[https://www.submarinecablemap.com/]]
 - 
 
@@ -342,6 +346,7 @@ Tubes: Journey to the center of the internet (teacher knowledge base)
 
 * Let's talk about web creation and portfolio sites
 ** Choosing tools
+
 - [[https://docs.google.com][Google Docs]]
 - [[https://sites.google.com][Google Sites]]
 - [[https://w3schools.com][W3schools]]
@@ -349,6 +354,7 @@ Tubes: Journey to the center of the internet (teacher knowledge base)
 - [[https://github.com][GitHub]]
 
 ** Motivating Web Creation
+
 Google docs rule the academic lives of many students.
 
 Preformatted docs are often used to scaffold learning products.
@@ -356,11 +362,12 @@ Preformatted docs are often used to scaffold learning products.
 Freedom with structure offers ownership of digital creations.
 
 #+REVEAL: split:t
+
 *** Integration Tips
+
 - Offer web creation skills to other teachers as an alternate work
-product format. 
-- Work with students to create a home for all of their
-work products. 
+  product format.
+- Work with students to create a home for all of their work products. 
 - Simplify assignment submissions by having students create pages to
   on their site for different assignments to simplify submission and
   develop a portfolio.
@@ -374,10 +381,14 @@ work products.
   editors like Word, Docs, Pages, etc.
 
 *** HTML isn't the only option
-**** Lightweight markup languages 
+**** Lightweight markup languages
+
 - AsciiDoc, Markdown, Org-mode
+
 **** Heavier markup languages
+
 - Latex, HTML
+
 ** Symbols and Syntax
 
 #+BEGIN_NOTES
@@ -396,16 +407,22 @@ can recognize. In HTML the symbols are called tags and use the "<" and
 #+END_NOTES
 
 ** Activities
-*** Create a webpage using a google doc 
+*** Create a webpage using a google doc
+
 [[file:./assets/w3schools_webpage_layout.png]]
 
 *** Try markdown
+
 [[https://markdownlivepreview.com/]]
 
 *** Follow a tutorial to create a GitHub Pages site
+
 [[http://jmcglone.com/guides/github-pages/]]
+
 ** Examples
+
 [[https://docs.google.com/spreadsheets/d/e/2PACX-1vTkBkjq86c_cVULPqP0ak4kkwHh45cWs89lRLd_DtSUFDQcfbCtGRRyVFxVqwjEAZC6YT6ltdDcolw0/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false][SY18-19 Learning Blogs]]
+
 * Let's talk about email
 ** Locations: labels, tags, folders
 
