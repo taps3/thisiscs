@@ -275,10 +275,20 @@ ACM Tech News is a great resource for students finding are for goals that are ac
    :CREATED:  [2022-04-28 Thu 19:12]
    :END:
 
-How to play
+*** How to play
+Set a 1 minute timer
+Record all of the means/purposes you used to connect to the internet.
+Earn 1 point for anything not listed by other players
 
 #+BEGIN_NOTES
- Just like the traditional game where you shake up some letters and write down as many words as you can in one minute You are going to make a list of all the ways that you connected to the Internet  In the past week.  Then compare your notes to the others to the others on your team you get one point for for any use of the Internet that another team member did not have . And may the most connected person win .. And don't forget to use the time chair share a little with each other have a good chat  
+ Just like the traditional game where you shake up some letters and
+ write down as many words as you can in one minute You are going to
+ make a list of all the ways that you connected to the Internet In the
+ past week.  Then compare your notes to the others to the others on
+ your team you get one point for for any use of the Internet that
+ another team member did not have . And may the most connected person
+ win .. And don't forget to use the time chair share a little with
+ each other have a good chat
 #+END_NOTES
 
 ** Code.org internet simulator
@@ -286,8 +296,7 @@ How to play
 
 #+BEGIN_NOTES
  In the Internet simulator activities we will present a problem And demonstrate setting it up but not solve it together We'll enter breakout rooms to continue working on the problem connecting to the people in our room through the simulator. We need to develop an agreement between ourselves. We are acting like computers in a network network so we are inserting ourselves into the communication of the machines.. Only by coming up with an agreement can we reliably get our messages across
-#+END_NOTES
-
+#+END_NOTE
 *** Activity Explore the Simulator
 
 - Simulator :: [[https://studio.code.org/s/csp2-2021/lessons/1/levels/1?section_id=4067479][First Simulator]]
@@ -340,9 +349,8 @@ So how do messages get from one place to another?
 ** Resources
 
 - [[https://www.submarinecablemap.com/]]
-- 
-
-Tubes: Journey to the center of the internet (teacher knowledge base)
+- [[https://www.youtube.com/playlist?list=PLzdnOPI1iJNfMRZm5DDxco3UdsFegvuB7][Code.org How the Internet Works playlist]]
+- [[https://www.amazon.com/Tubes-Journey-Internet-Andrew-Blum/dp/0061994952][Tubes: Journey to the center of the internet]]
 
 * Let's talk about web creation and portfolio sites
 ** Choosing tools
