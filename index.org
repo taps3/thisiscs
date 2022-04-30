@@ -198,8 +198,7 @@ University of Georgia researchers created a model to help identify
    :END:
 
 - consume data (which includes instructions), 
-- transform it using
-instructions (which can be sealed out for new instructions), and
+- transform it using instructions (which can be sealed out for new instructions), and
 - return some useful result.
 
 ** From person to machine
@@ -405,6 +404,8 @@ can recognize. In HTML the symbols are called tags and use the "<" and
 
 *** Follow a tutorial to create a GitHub Pages site
 [[http://jmcglone.com/guides/github-pages/]]
+** Examples
+[[https://docs.google.com/spreadsheets/d/e/2PACX-1vTkBkjq86c_cVULPqP0ak4kkwHh45cWs89lRLd_DtSUFDQcfbCtGRRyVFxVqwjEAZC6YT6ltdDcolw0/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false][SY18-19 Learning Blogs]]
 * Let's talk about email
 ** Locations: labels, tags, folders
 
