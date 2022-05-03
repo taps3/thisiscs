@@ -1,20 +1,4 @@
-#+STARTUP: beamer overview
-#+TITLE: So This is CS!
-#+AUTHOR: Eric Allatta
-#+EMAIL: ericallatta@gmail.com
-
-#+OPTIONS: toc:nil num:nil
-#+LATEX_CLASS: beamer
-#+LATEX_CLASS_OPTIONS: [presentation]
-#+BEAMER_THEME: Berkeley
-#+BEAMER_COLOR_THEME: seagull
-
-#+REVEAL_INIT_OPTIONS: hashOneBasedIndex: true, hash: true, slideNumber:false, transition:'none', controlsTutorial: false, navigationMode: 'default'
-#+REVEAL_ROOT: reveal.js
-#+REVEAL_HLEVEL: 1
-#+REVEAL_THEME: simple
-#+REVEAL_EXTRA_CSS: local.css
-
+#+SETUPFILE: setup.org
 * Preamble :noexport_reveal:
 * Welcome to So this is CS!
   :PROPERTIES:
@@ -255,7 +239,6 @@ In 1936 Alan Turing described a machine that the could take an infinite list of 
 - [[https://tecnews.acm.com][ACM TechNews]]
 - [[https://ideas.ted.com/how-i-discovered-six-pioneering-women-who-helped-create-modern-computers-and-why-we-should-never-forget-them/][How I discovered six pioneering women who helped create modern
   computers and why we should never forget them]]
-- [[https://commons.wikimedia.org/wiki/File:Model_of_a_Turing_machine.jpg]]
 
 See speaker notes for additional context
 
@@ -296,7 +279,7 @@ Earn 1 point for anything not listed by other players
 
 #+BEGIN_NOTES
  In the Internet simulator activities we will present a problem And demonstrate setting it up but not solve it together We'll enter breakout rooms to continue working on the problem connecting to the people in our room through the simulator. We need to develop an agreement between ourselves. We are acting like computers in a network network so we are inserting ourselves into the communication of the machines.. Only by coming up with an agreement can we reliably get our messages across
-#+END_NOTE
+#+END_NOTES
 *** Activity Explore the Simulator
 
 - Simulator :: [[https://studio.code.org/s/csp2-2021/lessons/1/levels/1?section_id=4067479][First Simulator]]
@@ -316,8 +299,18 @@ while the connected members discuss what they notice about the
 simulator.
 
 *** Activity Send/Receive a Bit
+- Simulator :: [[https://studio.code.org/s/netsim/lessons/2/levels/1][Second
+               Simulator]]
+- Context :: Teams
+- Setup :: Choose two team members to connect. Share screen of one
+           connected member.
+- Groups :: [[https://docs.google.com/document/d/1S6g80qzFP6Kh0nqy8_QEfPO60P5rcDLoc_Z2H-WoZUc/edit#heading=h.9is4g32neq61][anchor doc groups heading]]
+#+REVEAL: split:t
 
-Develop a protocol that allows one bit to be sent back and forth using a metronome
+**** Instructions
+
+Develop a protocol that allows one bit to be sent back and forth using
+a metronome
 
 *** Activity Send/Receive a Word
 *** Activity Send/Receive/Confirm a Word
@@ -369,9 +362,7 @@ Preformatted docs are often used to scaffold learning products.
 
 Freedom with structure offers ownership of digital creations.
 
-#+REVEAL: split:t
-
-*** Integration Tips
+** Integration Tips
 
 - Offer web creation skills to other teachers as an alternate work
   product format.
@@ -418,11 +409,11 @@ can recognize. In HTML the symbols are called tags and use the "<" and
 *** Create a webpage using a google doc
 
 [[file:./assets/w3schools_webpage_layout.png]]
-
+#+REVEAL: split
 *** Try markdown
 
 [[https://markdownlivepreview.com/]]
-
+#+REVEAL: split
 *** Follow a tutorial to create a GitHub Pages site
 
 [[http://jmcglone.com/guides/github-pages/]]
@@ -574,12 +565,253 @@ Participants will be able to...
   given table.
 
 ** Data
+- often means information about the world around us represented in a structure that can be read by
+  computer
+- data can often be represented as a table
+- a spreadsheet is a program for interacting with tabular data
+- programming languages can also manipulate tabular data
+** Data Rows and Columns
+   
+Tables are made up of data rows and columns
+**** Data Rows :: values relating to an entity (nouns)
+  - a person, thing, or event
+  - represented horizontally across the table
+**** Columns :: properties or atributes about the entity (adjectives)
+  - shared by other entities
+  - each column has a name that identifies the attribute
+  - represented vertically down the table
 
-often means information about the world around us represented in a
-structure that can be read by computers
+** Tables
+Data rows begin under the *header*, which contains the names of each column
 
+*** Check for understanding
+
+How many data rows does this table contain?
+
+| column 1   | column 2   | column 3   | column 4   |
+|------------+------------+------------+------------|
+| data value | data value | data value | data value |
+| data value | data value | data value | data value |
+
+
+** Activity
+- Draw a circle around a column
+- Draw an line through a row
+- Draw an x over a column header
+
+| Name             | ID | Attendance |
+|------------------+----+------------|
+| Andy Thomson     | 73 |        100 |
+| Xena Woodley     | 30 |        100 |
+| Lilianna Cabrera |  1 |         83 |
+| Maurice Steadman | 29 |         96 |
+| Sameera Yeoman   | 75 |         75 |
+
+** Types of Tables
+- Tables for Computers :: data collection tables
+  - often many rows
+  - not human readable
+  - one row per event
+- Tables for Humans :: created from computer tables for humans
+  - summary (pivot) tables
+  - one row per category
+
+** Example computer table
+Submitting attendance is an example of a table for computers
+#+BEGIN_NOTES
+Attendance collected from every teacher every period creates tens of thousands of rows of data for
+even a small school.
+
+What do we do with attendance data?
+#+END_NOTES
+*** Checck for understanding
+Describe the data entry in an attendance collection table.
+
+| Student   | Class       |       Date | Attendance |
+|-----------+-------------+------------+------------|
+| Student 1 | Intro to CS | 2022-04-30 | P          |
+| Student 2 | Intro to CS | 2022-04-30 | A          |
+| Student 3 | Intro to CS | 2022-04-30 | P          |
+| Student 4 | Intro to CS | 2022-04-30 | P          |
+| Student 5 | Intro to CS | 2022-04-30 | A          |
+** Example of table for humans
+A student level report for a parent conference is an example of a table for humans.
+
+*** Check for understanding
+| Student   | Class       | 1st Sem Attd |
+|-----------+-------------+--------------|
+| Student 1 | Intro to CS |          100 |
+| Student 1 | English     |           75 |
+| Student 1 | Math        |           93 |
+| Student 1 | Science     |           93 |
+| Student 1 | History     |           90 |
+
+** Categorical and Quantitative Data
+- Categorical data :: describe attributes that represent categories to which the entity belongs
+  - *cannot* be used for arthimetics
+  - adding, subtracting, multipyling, and dividing don't make sense
+- Quantitative data :: describe attributes that count or measure part of the entity
+  - *can* be used to for arithmetics
+  - adding, subtracting, etc. produce meaningful results
+#+BEGIN_NOTES
+The issue here is one of meaning. These are types of knowledge. These distinctions determine what
+operations are available to summariz and tranform the data.
+#+END_NOTES
+
+** Categorical or Quantitative
+- Who is the oldest in a particular grade?  
+- Which students need attendance outreach?
+- How many students have below 65% attendance in the 9th grade?
+- Which cohort of students has the highest average assessment scores?
+- Which zip code has students with the lowest attendance?
+- Which advisor has the most students in need of attendance outreach?
+- What is the average number of student logins to the online gradebook?
+
+#+BEGIN_NOTES
+What type of data knowledge would you use to answer each question?
+#+END_NOTES
+
+** Subgroups
+- Large amounts of data are more useful when broken up into different subgroups
+- If I am a principal, I might want to see data relating to only certain classrooms.
+- If I am a parent, I only want data about a particular student.
+
+*** Breakout
+- What are some examples of subgroups of your students?
+- How are those students described in meetings?
+- What data is used to identify these sub-groups?
+
+** Activity Overview
+*Filter Views* Filter views represent subgroups of data.
+- On the next slide you will recieve a link to some data about students.
+- Find "Filter Views" in the _Data_ menu
+- You will see several saved views.
+- Each filter view represents a subgroup of students
+- You can edit, duplicate, and create your own filter views.
+#+BEGIN_NOTES
+Filter views are not filters. They can be saved and shared and exist separately from the data you
+are viewing.
+#+END_NOTES
+** Student Data
+[[https://docs.google.com/spreadsheets/d/11_Xxc7IK2IviW4gNmCHT4AVPgLKwhMU4HrJF7Z-Z_pk/copy][Make a copy of student dataset]] The link about allows you to copy a one semester summary of student
+data.
+
+Find "Filter Views" in the _Data_ menu
+
+Try these actions:
+- Open a filter view for a saved subgroup
+- Duplicate a filter view -> rename the copy
+- Change a filter view by sorting a column -> verify that your change is saved
+- Create a new filter view
+
+#+BEGIN_NOTES
+Show the range of the filter view and explain the next level tip of the blank second row.
+Spreadsheets aren't really tables because the header is treated like another cell.
+#+END_NOTES
+
+** Pivot Tables
+- Pivot tables are summaries of large tables
+- By grouping data together we can make a new table where each row entity is a summary of some part
+  of the larger table.
+
+*** Create a pivot table
+Find "Pivot Table" in the _Data_ menu
+
+Choose a range to summarize (the default is the entire tab you are currently viewing"
+
+You can create a new sheet or add multiple pivot tables to one sheet.
+
+
+
+*** Choose Rows
+
+Choose your columns to be some categorical data that represents a subgroup of the data.
+
+*** Choose columns
+For each row what attributes to want to investigate
+
+*** Choose value
+For each attribute how would you like to summarize it?
+
+#+BEGIN_NOTES
+Common summaries are sum, count, and average 
+Remember if you are counting non-numeric data you need
+to use COUNTA.
+What are common ways we summarize student grades or attendance?
+#+END_NOTES
+** Cell References
+Each cell is named by the absolute reference using the column letters first found at the top and row numbers second found along the side.
+
+=A1 means get me the value from column A, row 1
+#+BEGIN_NOTES
+The leading equal sign (=) means "Hey spreadsheet I'm about to give you a formula."
+#+END_NOTES
+
+** Functions and Expressions (Formulas)
+#+BEGIN_EXAMPLE
+=function(values)
+#+END_EXAMPLE
+
+- An expression is when you apply a function to a value. The function does its job and gives back the result.
+- Expressions are like a sentence with verbs and nouns.
+  - Verbs in a expression are called *Functions*
+  - Nouns in a expression are called *Values*
+
+** Function Contracts (protocols)
+
+A contract is an agreement with the function. If we follow the contract, the function will do work for us. We need to give the function what is expected in its contract in order for it to do its work.
+Type ~=concatenate~
+Click ~?~ to see the function contract
+What does concatenate expect to be given?
+What will concatenate give back if you follow the contract?
+
+** Copy down formula for an entire cell
+Most spreadsheet functions work on single values
+One way to apply a function to a range of values, such as all of the values in a column of data, you
+can copy down the formula by...
+- CTRL+↓ or CTRL+↑ jumps to the top or bottom of a column
+- Add SHIFT, CTRL+SHIFT+↓ to select all cells below
+- Ctrl+D to copy down formula
+- Formulas in spreadsheets are made to be copied down. Cell references will change unless you tell them not too.
+
+** Import Data
+[[https://www.dropbox.com/s/3inawmtc919pcgu/2021FallSemesterJumpropeData.csv?dl=0][Student data csv download]] Download the file above or use a csv of your own student data
+- Open or create a sheet.
+- Find "Import" from the _File_ menu.
+- Choose the csv file for your data.
+- Select an import option.
+- Choose replace current sheet in most cases.
+- Choose detect seperator automatically in most cases.
+- Click import.
+
+** Named ranges
+- Open a spreadsheet in Google Sheets.
+- Select the cells you want to name.
+- Click Data and then Named ranges. A menu will open on the right.
+- Tip: To quickly open this menu, in the range box on the top left, click the drop down menu Down arrow >  Manage named ranges.
+- Type the range name you want.
+- To change the range, click Spreadsheet Grid.
+- Select a range in the spreadsheet or type the new range into the text box, then click Ok.
+- Click Done.
+
+** Named ranges example
+Assume you have the names *first_column* and *second_column* in your named ranges.
+~=arrayformula(concatenate(first_column, second_column)~
+
+** Array Builde Notation
+Creating custom arrays
+You can also create your own arrays in a formula in your spreadsheet by using brackets { }. The brackets allow you to group together values, while you use the following punctuation to determine which order the values are displayed in:
+
+Commas: Separate columns to help you write a row of data in an array. For example, ={1, 2} would place the number 1 in the first cell and the number 2 in the cell to the right in a new column.
+Semicolons: Separate rows to help you write a column of data in an array. For example, ={1; 2} would place the number 1 in the first cell and the number 2 in the cell below in a new row.
+
+** Filter and sort functions
+
+** Match an index
+** Concatenate text with map
 * Let's talk about data science
-** Filters and sorts
-
-   So I'm trying to find a stereo on best buy
-
+** So I'm trying to find a stereo on best buy
+** Pyret Starter File
+[[https://code.pyret.org/editor#share=1dPRWELtPqqlXEwO_QnnR5RVVlanCXeOd&v=da57865][Student Data Starter File]]
+Open the link above.
+You will see a Pyret program that loads data from our student google sheets example.
