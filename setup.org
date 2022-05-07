@@ -1,0 +1,16 @@
+#+STARTUP: beamer overview
+#+TITLE: So This is CS!
+#+AUTHOR: Eric Allatta
+#+EMAIL: ericallatta@gmail.com
+
+#+OPTIONS: toc:nil num:nil
+#+LATEX_CLASS: beamer
+#+LATEX_CLASS_OPTIONS: [presentation]
+#+BEAMER_THEME: Berkeley
+#+BEAMER_COLOR_THEME: seagull
+
+#+REVEAL_INIT_OPTIONS: hashOneBasedIndex: true, hash: true, slideNumber:false, transition:'none', controlsTutorial: false, navigationMode: 'default'
+#+REVEAL_ROOT: reveal.js
+#+REVEAL_HLEVEL: 1
+#+REVEAL_THEME: sky
+#+REVEAL_EXTRA_CSS: local.css
