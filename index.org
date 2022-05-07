@@ -1,4 +1,5 @@
 #+SETUPFILE: setup.org
+
 * Preamble :noexport_reveal:
 * Welcome to So this is CS!
   :PROPERTIES:
@@ -64,9 +65,14 @@ Particpants will...
 
 * Roles
   :PROPERTIES:
-  :BEAMER_COL: 0.48
-  :BEAMER_ENV: block
+  :CREATED:  [2022-05-04 Wed 08:13]
   :END:
+
+** Roles
+   :PROPERTIES:
+   :BEAMER_COL: 0.48
+   :BEAMER_ENV: block
+   :END:
 
 #+ATTR_REVEAL: :frag (appear)
 Roles describe areas of focus during team or group activities.
@@ -81,50 +87,41 @@ More roles can be added but the core roles should always be present.
 - Time keeper
 - Facilitator
 
-** Global roles
-** Reporter
+*** Global roles
+*** Reporter
 
 - maintain parking lot,
 - record and report back,
 - monitor chat
 
-** Time keeper
+*** Time keeper
 
 - monitor lecture length
 - monitor break length
 - call out timing alerts, convey pacing consensus
 
-** Facilitator
-** Local Roles
-** Reporter
+*** Facilitator
+*** Local Roles
+*** Reporter
 
   - record and report team conversation
   - special focus on parking lot questions 
 
-** Time keeper
+*** Time keeper
 
   - keep us honest
   - special focus on timing of activities and balanced group participation
 
-** Facilitator
+*** Facilitator
 
   - know what "we are supposed to be doing right now"
   - special focus on tasks, deliverables/goals/objectives, and flow
 
-* Teams
-  :PROPERTIES:
-  :CREATED:  [2022-04-28 Thu 09:40]
-  :END:
-
-Round Robin algorithm
-
 * Notice & Wonder
 
-Lots of notice
+Notice means what do you see. Call out the obvious. Make simple observations. Go for quantity.
 
-Wonder means begin an idea, consider possibilities
-
-Wonderings are questions with possible answers
+Wonder means begin an idea and consider possibilities. Wonderings are questions with their possible answers.
 
 
 #+BEGIN_NOTES
@@ -259,6 +256,7 @@ ACM Tech News is a great resource for students finding are for goals that are ac
    :END:
 
 *** How to play
+
 Set a 1 minute timer
 Record all of the means/purposes you used to connect to the internet.
 Earn 1 point for anything not listed by other players
@@ -280,6 +278,7 @@ Earn 1 point for anything not listed by other players
 #+BEGIN_NOTES
  In the Internet simulator activities we will present a problem And demonstrate setting it up but not solve it together We'll enter breakout rooms to continue working on the problem connecting to the people in our room through the simulator. We need to develop an agreement between ourselves. We are acting like computers in a network network so we are inserting ourselves into the communication of the machines.. Only by coming up with an agreement can we reliably get our messages across
 #+END_NOTES
+
 *** Activity Explore the Simulator
 
 - Simulator :: [[https://studio.code.org/s/csp2-2021/lessons/1/levels/1?section_id=4067479][First Simulator]]
@@ -299,6 +298,7 @@ while the connected members discuss what they notice about the
 simulator.
 
 *** Activity Send/Receive a Bit
+
 - Simulator :: [[https://studio.code.org/s/netsim/lessons/2/levels/1][Second
                Simulator]]
 - Context :: Teams
@@ -371,6 +371,15 @@ Freedom with structure offers ownership of digital creations.
   on their site for different assignments to simplify submission and
   develop a portfolio.
 
+** Structure documents
+   :PROPERTIES:
+   :CREATED:  [2022-05-05 Thu 12:23]
+   :END:
+
+Can be read by a computer
+
+*Describe* the meaning of different parts rather than *show*
+
 ** Markup languages
 
 - A lighter introduction to structured text
@@ -390,6 +399,14 @@ Freedom with structure offers ownership of digital creations.
 
 ** Symbols and Syntax
 
+Computers need data to have structure.
+
+Structures are repeated patterns in data that a computer can be told how to process. 
+
+HTML is a language that uses a system of tags to describe the role of different posts of a document. 
+
+Hyper text 
+
 #+BEGIN_NOTES
 How do we tell
 the computer which words are the content and which words are
@@ -406,17 +423,19 @@ can recognize. In HTML the symbols are called tags and use the "<" and
 #+END_NOTES
 
 ** Activities
-*** Create a webpage using a google doc
+*** Create a webpage from a google doc
 
-[[file:./assets/w3schools_webpage_layout.png]]
-#+REVEAL: split
+   - [[file:./assets/w3schools_webpage_layout.png]]
+   - [[https://www.dropbox.com/s/tbar0n559b90ocy/doc_site_publish_2022-04-30.mkv?dl=0][Walk through video]]
+
 *** Try markdown
 
-[[https://markdownlivepreview.com/]]
-#+REVEAL: split
-*** Follow a tutorial to create a GitHub Pages site
+   - [[https://markdownlivepreview.com/]]
 
-[[http://jmcglone.com/guides/github-pages/]]
+*** Host a website on github pages
+
+   - Follow a tutorial to create a GitHub Pages site
+   - [[http://jmcglone.com/guides/github-pages/]]
 
 ** Examples
 
@@ -486,27 +505,124 @@ star or flag.
 ** Seating Charts and Pair Programming
 ** Work products: analog and digital
 ** Assessment:  cultivating success
+* Computing in the news REDUX
+  :PROPERTIES:
+  :CREATED:  [2022-05-05 Thu 13:21]
+  :END:
+
+** Find the computer
+   :PROPERTIES:
+   :CREATED:  [2022-05-05 Thu 13:22]
+   :END:
+
+Recall: computers consume data, transform data based on some instructions, and return a useful result
+
+In each of these stories there is a computer. Find the computer by finding the data.
+
+** Articles
+   :PROPERTIES:
+   :CREATED:  [2022-05-05 Thu 13:23]
+   :END:
+
+The Problems with Elon Musk's Plan to Open-Source the Twitter Algorithm
+MIT Technology Review
+Chris Stokel-Walker
+April 27, 2022
+
+Elon Musk’s announced plans for the Twitter social network include open-sourcing its algorithms, which experts say would do little to boost transparency without access to their training data. Said Jennifer Cobbe of the U.K.'s University of Cambridge, "Most of the time when people talk about algorithmic accountability these days, we recognize that the algorithms themselves aren't necessarily what we want to see—what we really want is information about how they were developed." There also are concerns open-sourcing Twitter's algorithms would enable bad actors to identify vulnerabilities to exploit and could make it more difficult to defeat spam bots.
+
+[[https://www.technologyreview.com/2022/04/27/1051472/the-problems-with-elon-musks-plan-to-open-source-the-twitter-algorithm/][open source twitter algorithm]]
+
+#+REVEAL: split:t
+
+Method Makes Traffic Prediction Faster
+Futurity.org
+Matt Shipman
+May 5, 2022
+
+North Carolina State University (NC State) researchers modified an algorithm developed to help simplify complex computing tasks to better anticipate traffic patterns in a specific place and time. The algorithm segments a bigger traffic forecasting model into a series of smaller problems that can be solved simultaneously. The process shortens the forecasting model's run time, while more complex questions tend to lead to higher levels of improved efficiency. The tweaked algorithm also enhances run time by allowing the model to realize when it has reached a solution that is within 5%, or even 10%, of the optimal solution. NC State's Ali Hajbabaie said the modified algorithm uses much less computer memory, and runs orders of magnitude faster, than a benchmark algorithm.
+
+[[https://www.futurity.org/traffic-model-algorithms-transportation-2735712/][traffic model algorithm]]
+
+#+REVEAL: split:t
+
+
+Open-Source 'Package Analysis' Tool Finds Malicious npm, PyPI Packages
+BleepingComputer
+Ax Sharma
+May 1, 2022
+
+The Open Source Security Foundation (OpenSSF)'s prototype Package Analysis tool caught more than 200 malicious npm and Python Package Index (PyPI) packages in its initial run. Released this week on software development platform GitHub, the tool is designed to identify and counter malware in open source registries. OpenSSF's Caleb Brown and David A. Wheeler said the tool was developed to help users "understand the behavior and capabilities of packages available on open-source repositories: what files do they access, what addresses do they connect to, and what commands do they run? The project also tracks changes in how packages behave over time, to identify when previously safe software begins acting suspiciously." Most of the malicious elements the tool identified in its initial run were dependency confusion and typosquatting exploits.
+
+[[https://www.bleepingcomputer.com/news/security/open-source-package-analysis-tool-finds-malicious-npm-pypi-packages/][open source package analysis]]
+
+#+REVEAL: split:t
+
+Algorithm That Screens for Child Neglect Raises Concerns
+Associated Press
+Sally Ho; Garance Burke
+April 29, 2022
+
+A review of an algorithm designed to screen for child neglect has raised worrying issues, including questions of reliability. Carnegie Mellon University researchers analyzed a tool used by Allegheny County, PA, which in its first years of use identified a disproportionate number of Black children for "mandatory neglect" probes compared to white children; social workers also disagreed with the algorithm's risk scores about one-third of the time. Critics say the algorithm gives data on poor people excessive influence in deciding families' fates, and they caution against local officials' increasing reliance on artificial intelligence. Advocates fear that if similar tools are adopted by other child welfare systems with little to no human intervention, they could compound racial disparities.
+
+[[https://apnews.com/article/child-welfare-algorithm-investigation-9497ee937e0053ad4144a86c68241ef1][child welfare algorithm]]
+
+** Computing innovation contracts
+   :PROPERTIES:
+   :CREATED:  [2022-05-06 Fri 11:48]
+   :END:
+
+Find the data in your computing innovation story. 
+
+What data is consumed by the computer? 
+
+How is the data transformed? 
+
+What is result is produced by the computation?
+
+What concerns regarding data storage,  data security, or data privacy are raised by this innovation?
+
+What potential benefit does this innovation promise? 
+
+What potential harm might this innovation cause? 
+
 * Part 2 :noexport_reveal:
 * Let's talk about algebra
 ** Equations
 
-Computer science can help us use precision in mathematics.
+Computer science can help us use precision in our mathematical language.
 
 What is an equation?
 
 Have you ever refered to an equation as
 containing the answer?
 
+** Expressions
+   :PROPERTIES:
+   :CREATED:  [2022-05-06 Fri 22:35]
+   :END:
+
+2 + 2 is an expression, it's value is 4
+The answer is 4
+
 ** Functions
 
-Repeatable computational abstractions
-The target of elementary and middle school mathematics is modeling and
-reasoning and expressions and equations standards are functions.
+Repeatable computational abstractions. The target of elementary and middle school mathematics is modeling and reasoning and expressions and equations standards are functions.
 
-Equations are a catch all phrase in mathematics education that often
-includes what we mean by functions in algebra.
+Equations are a catch all phrase in mathematics education that often includes what we mean by functions in algebra.
 
 Notice what changes, collect and plot data, predict/interpolate values
+
+** A formula is a function
+   :PROPERTIES:
+   :CREATED:  [2022-05-06 Fri 13:20]
+   :END:
+
+In math class we often refer to "formulas" like the formula for the volume of a cone. 
+
+Students "plug" numbers into the formula. Formulas are functions! 
+
+Plugging-in is applying a function forming an expression (or what excel calls a formula :/
 
 ** Examples
 
@@ -516,17 +632,6 @@ of the cone?
 
 - What skill is being assessed?
 - What is given (context)?
-- 
-
-** Imagine data entities
-
-Data entities are elements of our world that we might want to track as data.
-
-Students in a school are often represented as a data point with a
-number of dimensions. Some of the dimensions (or attributes)
-associated with a student are attendance, credits, biographicals.
-
-*Brainstorm* data entities from your own life.
 
 * Let's talk about spreadsheets
 ** Fundamentals
@@ -565,23 +670,30 @@ Participants will be able to...
   given table.
 
 ** Data
+
 - often means information about the world around us represented in a structure that can be read by
   computer
 - data can often be represented as a table
 - a spreadsheet is a program for interacting with tabular data
 - programming languages can also manipulate tabular data
+
 ** Data Rows and Columns
-   
+
 Tables are made up of data rows and columns
+
 **** Data Rows :: values relating to an entity (nouns)
+
   - a person, thing, or event
   - represented horizontally across the table
+
 **** Columns :: properties or atributes about the entity (adjectives)
+
   - shared by other entities
   - each column has a name that identifies the attribute
   - represented vertically down the table
 
 ** Tables
+
 Data rows begin under the *header*, which contains the names of each column
 
 *** Check for understanding
@@ -593,8 +705,8 @@ How many data rows does this table contain?
 | data value | data value | data value | data value |
 | data value | data value | data value | data value |
 
-
 ** Activity
+
 - Draw a circle around a column
 - Draw an line through a row
 - Draw an x over a column header
@@ -607,7 +719,18 @@ How many data rows does this table contain?
 | Maurice Steadman | 29 |         96 |
 | Sameera Yeoman   | 75 |         75 |
 
+** Imagine data entities
+
+Data entities are elements of our world that we might want to track as data.
+
+Students in a school are often represented as a data point with a
+number of dimensions. Some of the dimensions (or attributes)
+associated with a student are attendance, credits, biographicals.
+
+*Brainstorm* data entities from your own life.
+
 ** Types of Tables
+
 - Tables for Computers :: data collection tables
   - often many rows
   - not human readable
@@ -617,15 +740,20 @@ How many data rows does this table contain?
   - one row per category
 
 ** Example computer table
+
 Submitting attendance is an example of a table for computers
 #+BEGIN_NOTES
 Attendance collected from every teacher every period creates tens of thousands of rows of data for
 even a small school.
 
 What do we do with attendance data?
+
+At what level is the row entity unique. 
 #+END_NOTES
+
 *** Checck for understanding
-Describe the data entry in an attendance collection table.
+
+Describe the data entity in an attendance collection table.
 
 | Student   | Class       |       Date | Attendance |
 |-----------+-------------+------------+------------|
@@ -634,10 +762,13 @@ Describe the data entry in an attendance collection table.
 | Student 3 | Intro to CS | 2022-04-30 | P          |
 | Student 4 | Intro to CS | 2022-04-30 | P          |
 | Student 5 | Intro to CS | 2022-04-30 | A          |
+
 ** Example of table for humans
+
 A student level report for a parent conference is an example of a table for humans.
 
 *** Check for understanding
+
 | Student   | Class       | 1st Sem Attd |
 |-----------+-------------+--------------|
 | Student 1 | Intro to CS |          100 |
@@ -647,6 +778,7 @@ A student level report for a parent conference is an example of a table for huma
 | Student 1 | History     |           90 |
 
 ** Categorical and Quantitative Data
+
 - Categorical data :: describe attributes that represent categories to which the entity belongs
   - *cannot* be used for arthimetics
   - adding, subtracting, multipyling, and dividing don't make sense
@@ -658,7 +790,8 @@ The issue here is one of meaning. These are types of knowledge. These distinctio
 operations are available to summariz and tranform the data.
 #+END_NOTES
 
-** Categorical or Quantitative
+** Categorical or Quantitative?
+
 - Who is the oldest in a particular grade?  
 - Which students need attendance outreach?
 - How many students have below 65% attendance in the 9th grade?
@@ -672,16 +805,19 @@ What type of data knowledge would you use to answer each question?
 #+END_NOTES
 
 ** Subgroups
+
 - Large amounts of data are more useful when broken up into different subgroups
 - If I am a principal, I might want to see data relating to only certain classrooms.
 - If I am a parent, I only want data about a particular student.
 
 *** Breakout
+
 - What are some examples of subgroups of your students?
 - How are those students described in meetings?
 - What data is used to identify these sub-groups?
 
 ** Activity Overview
+
 *Filter Views* Filter views represent subgroups of data.
 - On the next slide you will recieve a link to some data about students.
 - Find "Filter Views" in the _Data_ menu
@@ -692,7 +828,9 @@ What type of data knowledge would you use to answer each question?
 Filter views are not filters. They can be saved and shared and exist separately from the data you
 are viewing.
 #+END_NOTES
+
 ** Student Data
+
 [[https://docs.google.com/spreadsheets/d/11_Xxc7IK2IviW4gNmCHT4AVPgLKwhMU4HrJF7Z-Z_pk/copy][Make a copy of student dataset]] The link about allows you to copy a one semester summary of student
 data.
 
@@ -710,27 +848,29 @@ Spreadsheets aren't really tables because the header is treated like another cel
 #+END_NOTES
 
 ** Pivot Tables
+
 - Pivot tables are summaries of large tables
 - By grouping data together we can make a new table where each row entity is a summary of some part
   of the larger table.
 
 *** Create a pivot table
+
 Find "Pivot Table" in the _Data_ menu
 
 Choose a range to summarize (the default is the entire tab you are currently viewing"
 
 You can create a new sheet or add multiple pivot tables to one sheet.
 
-
-
 *** Choose Rows
 
 Choose your columns to be some categorical data that represents a subgroup of the data.
 
 *** Choose columns
+
 For each row what attributes to want to investigate
 
 *** Choose value
+
 For each attribute how would you like to summarize it?
 
 #+BEGIN_NOTES
@@ -739,7 +879,9 @@ Remember if you are counting non-numeric data you need
 to use COUNTA.
 What are common ways we summarize student grades or attendance?
 #+END_NOTES
+
 ** Cell References
+
 Each cell is named by the absolute reference using the column letters first found at the top and row numbers second found along the side.
 
 =A1 means get me the value from column A, row 1
@@ -748,6 +890,7 @@ The leading equal sign (=) means "Hey spreadsheet I'm about to give you a formul
 #+END_NOTES
 
 ** Functions and Expressions (Formulas)
+
 #+BEGIN_EXAMPLE
 =function(values)
 #+END_EXAMPLE
@@ -765,7 +908,8 @@ Click ~?~ to see the function contract
 What does concatenate expect to be given?
 What will concatenate give back if you follow the contract?
 
-** Copy down formula for an entire cell
+** Copy down formulas for an entire column
+
 Most spreadsheet functions work on single values
 One way to apply a function to a range of values, such as all of the values in a column of data, you
 can copy down the formula by...
@@ -775,6 +919,7 @@ can copy down the formula by...
 - Formulas in spreadsheets are made to be copied down. Cell references will change unless you tell them not too.
 
 ** Import Data
+
 [[https://www.dropbox.com/s/3inawmtc919pcgu/2021FallSemesterJumpropeData.csv?dl=0][Student data csv download]] Download the file above or use a csv of your own student data
 - Open or create a sheet.
 - Find "Import" from the _File_ menu.
@@ -785,6 +930,7 @@ can copy down the formula by...
 - Click import.
 
 ** Named ranges
+
 - Open a spreadsheet in Google Sheets.
 - Select the cells you want to name.
 - Click Data and then Named ranges. A menu will open on the right.
@@ -795,23 +941,93 @@ can copy down the formula by...
 - Click Done.
 
 ** Named ranges example
+
 Assume you have the names *first_column* and *second_column* in your named ranges.
 ~=arrayformula(concatenate(first_column, second_column)~
 
-** Array Builde Notation
-Creating custom arrays
-You can also create your own arrays in a formula in your spreadsheet by using brackets { }. The brackets allow you to group together values, while you use the following punctuation to determine which order the values are displayed in:
+** Array BuilderNotation
 
-Commas: Separate columns to help you write a row of data in an array. For example, ={1, 2} would place the number 1 in the first cell and the number 2 in the cell to the right in a new column.
-Semicolons: Separate rows to help you write a column of data in an array. For example, ={1; 2} would place the number 1 in the first cell and the number 2 in the cell below in a new row.
+Creating custom arrays
+You can also create your own arrays in a formula in your spreadsheet by using brackets { }. The brackets allow you to group values, which can be a single number, string or boolean, or a rangeof values. 
+
+
+
+** Horizontal and Vertical Stacking
+   :PROPERTIES:
+   :CREATED:  [2022-05-05 Thu 12:33]
+   :END:
+
+Use the following punctuation to arrange values in an array:
+
+- *Commas:* Separate columns with a comma to arrange data horizontally. For example, ={1, 2} would place the number 1 in the first cell and the number 2 in the cell to the right in a new column.
+- *Semicolons:* Separate rows with a semicolon to arrange data vertically. For example, ={1; 2} would place the number 1 in the first cell and the number 2 in the cell below in a new row.
+
+Try on your own.
+
+** Arrayformula
+   :PROPERTIES:
+   :CREATED:  [2022-05-05 Thu 12:46]
+   :END:
+
+** Example: Operators vs Function
+   :PROPERTIES:
+   :CREATED:  [2022-05-05 Thu 13:00]
+   :END:
+
+Recall the distributive property
+
+$a(b+c) = ab + ac$
+
+
+Compare the results of
+
+~=arrayformula(a:b&b:b)~
+to
+~=arrayformula(concatenate(a:a,b:b)~
 
 ** Filter and sort functions
+
+=FILTER(data, boolean-mask-to-apply-over-that-data)
+
+Formulas in filters expand like an array formula
 
 ** Match an index
 ** Concatenate text with map
 * Let's talk about data science
-** So I'm trying to find a stereo on best buy
+** Using a programming language to produce meaningful results with data
 ** Pyret Starter File
+
 [[https://code.pyret.org/editor#share=1dPRWELtPqqlXEwO_QnnR5RVVlanCXeOd&v=da57865][Student Data Starter File]]
 Open the link above.
 You will see a Pyret program that loads data from our student google sheets example.
+This starter file uses a libray from the Bootsrap:DataScience curriculum to simplify some of the
+table and charting operations.
+Consult the curriculum workbook for a full list of the contracts available.
+
+** Tables and Row Accessors
+   :PROPERTIES:
+   :CREATED:  [2022-05-04 Wed 07:30]
+   :END:
+
+** Visualizations
+   :PROPERTIES:
+   :CREATED:  [2022-05-04 Wed 07:31]
+   :END:
+
+*** Pie-chart
+    :PROPERTIES:
+    :CREATED:  [2022-05-03 Tue 20:31]
+    :END:
+
+~pie-chart(students-table, "iep)~
+
+*** Bar chart
+    :PROPERTIES:
+    :CREATED:  [2022-05-06 Fri 07:39]
+    :END:
+
+** WGOITG? NY Times
+   :PROPERTIES:
+   :CREATED:  [2022-05-06 Fri 07:39]
+   :END:
+
