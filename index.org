@@ -16,119 +16,119 @@ Press O for slides overview
 A Great note
 #+END_NOTES
 
-* About Me
-  :PROPERTIES:
-  :BEAMER_ENV: block
-  :END:
+** About Me
+   :PROPERTIES:
+   :BEAMER_ENV: block
+   :END:
 
    - Husband to Jill and Father to Joy (11), Bruce (6), and Rose (18m)
    - Freelance designer, builder, teacher
    - 10 years in NYC public schools
    - Founding computer science teacher of the Academy for Software
      Engineering
-#+ATTR_ORG: :width 100px
-#+ATTR_LATEX: :width 3cm 
-#+ATTR_HTML: :height 300px
-[[file:./assets/family.jpg]]
+   #+ATTR_ORG: :width 100px
+   #+ATTR_LATEX: :width 3cm 
+   #+ATTR_HTML: :height 300px
+   [[file:./assets/family.jpg]]
 
-* The Big picture
-  :PROPERTIES:
-  :BEAMER_COL: 0.48
-  :BEAMER_ENV: block
-  :END:
-
-Particpants will...
-  - engage in hands-on learning through a variety of computing tools
-    and  classroom activities adaptable for a range of ages,
-  - form connections between CS ed curricula and core academic subjects,
-  - and solve school-based problems with spreadsheet data engineering.
-
-* The Plan
-** Part 1
-
-- Computing in the News
-- Computers
-- The Internet
-- Portfolio Sites
-- Email
-
-** Part 2
-
-- Algebra
-- Spreadsheets
-- Data Science
-- Programming
-
-* Anchor Doc + parking lot
-
-[[https://docs.google.com/document/d/1S6g80qzFP6Kh0nqy8_QEfPO60P5rcDLoc_Z2H-WoZUc/edit#][anchor doc]]
-
-* Roles
-  :PROPERTIES:
-  :CREATED:  [2022-05-04 Wed 08:13]
-  :END:
-
-** Roles
+** The Big picture
    :PROPERTIES:
    :BEAMER_COL: 0.48
    :BEAMER_ENV: block
    :END:
 
-#+ATTR_REVEAL: :frag (appear)
-Roles describe areas of focus during team or group activities.
-#+ATTR_REVEAL: :frag (appear)
-A person can focus on more than one role or a role can be divided between multiple people.
-#+ATTR_REVEAL: :frag (appear)
-More roles can be added but the core roles should always be present.
+   Particpants will...
+   - engage in hands-on learning through a variety of computing tools
+     and  classroom activities adaptable for a range of ages,
+   - form connections between CS ed curricula and core academic subjects,
+   - and solve school-based problems with spreadsheet data engineering.
 
-#+REVEAL: split:t
-#+ATTR_REVEAL: :frag (appear) 
-- Reporter
-- Time keeper
-- Facilitator
+** The Plan
+*** Part 1
 
-*** Global roles
-*** Reporter
+    - Computing in the News
+    - Computers
+    - The Internet
+    - Portfolio Sites
+    - Email
 
-- maintain parking lot,
-- record and report back,
-- monitor chat
+*** Part 2
 
-*** Time keeper
+    - Algebra
+    - Spreadsheets
+    - Data Science
+    - Programming
 
-- monitor lecture length
-- monitor break length
-- call out timing alerts, convey pacing consensus
+** Anchor Doc + parking lot
 
-*** Facilitator
-*** Local Roles
-*** Reporter
+   [[https://docs.google.com/document/d/1S6g80qzFP6Kh0nqy8_QEfPO60P5rcDLoc_Z2H-WoZUc/edit#][anchor doc]]
 
-  - record and report team conversation
-  - special focus on parking lot questions 
+** Roles
+   :PROPERTIES:
+   :CREATED:  [2022-05-04 Wed 08:13]
+   :END:
 
-*** Time keeper
+*** Roles
+    :PROPERTIES:
+    :BEAMER_COL: 0.48
+    :BEAMER_ENV: block
+    :END:
 
-  - keep us honest
-  - special focus on timing of activities and balanced group participation
+    #+ATTR_REVEAL: :frag (appear)
+    Roles describe areas of focus during team or group activities.
+    #+ATTR_REVEAL: :frag (appear)
+    A person can focus on more than one role or a role can be divided between multiple people.
+    #+ATTR_REVEAL: :frag (appear)
+    More roles can be added but the core roles should always be present.
 
-*** Facilitator
+    #+REVEAL: split:t
+    #+ATTR_REVEAL: :frag (appear) 
+    - Reporter
+    - Time keeper
+    - Facilitator
 
-  - know what "we are supposed to be doing right now"
-  - special focus on tasks, deliverables/goals/objectives, and flow
+**** Global roles
+**** Reporter
 
-* Notice & Wonder
+     - maintain parking lot,
+     - record and report back,
+     - monitor chat
 
-Notice means what do you see. Call out the obvious. Make simple observations. Go for quantity.
+**** Time keeper
 
-Wonder means begin an idea and consider possibilities. Wonderings are questions with their possible answers.
+     - monitor lecture length
+     - monitor break length
+     - call out timing alerts, convey pacing consensus
+
+**** Facilitator
+**** Local Roles
+**** Reporter
+
+     - record and report team conversation
+     - special focus on parking lot questions 
+
+**** Time keeper
+
+     - keep us honest
+     - special focus on timing of activities and balanced group participation
+
+**** Facilitator
+
+     - know what "we are supposed to be doing right now"
+     - special focus on tasks, deliverables/goals/objectives, and flow
+
+** Notice & Wonder
+
+   Notice means what do you see. Call out the obvious. Make simple observations. Go for quantity.
+
+   Wonder means begin an idea and consider possibilities. Wonderings are questions with their possible answers.
 
 
-#+BEGIN_NOTES
-Just forming a answer that might be right is a big win. What kind of
-answer would even make sense here? What units? What range of values?
-What constraints? What motivations?
-#+END_NOTES
+   #+BEGIN_NOTES
+   Just forming a answer that might be right is a big win. What kind of
+   answer would even make sense here? What units? What range of values?
+   What constraints? What motivations?
+   #+END_NOTES
 
 * Computing in the news
 
@@ -179,7 +179,7 @@ University of Georgia researchers created a model to help identify
    :END:
 
 - consume data (which includes instructions), 
-- transform it using instructions (which can be sealed out for new instructions), and
+- transform it using instructions, and
 - return some useful result.
 
 ** From person to machine
@@ -524,6 +524,7 @@ In each of these stories there is a computer. Find the computer by finding the d
    :CREATED:  [2022-05-05 Thu 13:23]
    :END:
 
+#+REVEAL_HTML: <small>
 The Problems with Elon Musk's Plan to Open-Source the Twitter Algorithm
 MIT Technology Review
 Chris Stokel-Walker
@@ -532,21 +533,20 @@ April 27, 2022
 Elon Musk’s announced plans for the Twitter social network include open-sourcing its algorithms, which experts say would do little to boost transparency without access to their training data. Said Jennifer Cobbe of the U.K.'s University of Cambridge, "Most of the time when people talk about algorithmic accountability these days, we recognize that the algorithms themselves aren't necessarily what we want to see—what we really want is information about how they were developed." There also are concerns open-sourcing Twitter's algorithms would enable bad actors to identify vulnerabilities to exploit and could make it more difficult to defeat spam bots.
 
 [[https://www.technologyreview.com/2022/04/27/1051472/the-problems-with-elon-musks-plan-to-open-source-the-twitter-algorithm/][open source twitter algorithm]]
-
+#+REVEAL_HTML: </small>
 #+REVEAL: split:t
-
+#+REVEAL_HTML: <small>
 Method Makes Traffic Prediction Faster
 Futurity.org
 Matt Shipman
 May 5, 2022
 
 North Carolina State University (NC State) researchers modified an algorithm developed to help simplify complex computing tasks to better anticipate traffic patterns in a specific place and time. The algorithm segments a bigger traffic forecasting model into a series of smaller problems that can be solved simultaneously. The process shortens the forecasting model's run time, while more complex questions tend to lead to higher levels of improved efficiency. The tweaked algorithm also enhances run time by allowing the model to realize when it has reached a solution that is within 5%, or even 10%, of the optimal solution. NC State's Ali Hajbabaie said the modified algorithm uses much less computer memory, and runs orders of magnitude faster, than a benchmark algorithm.
-
+#+REVEAL_HTML: </small>
 [[https://www.futurity.org/traffic-model-algorithms-transportation-2735712/][traffic model algorithm]]
 
 #+REVEAL: split:t
-
-
+#+REVEAL_HTML: <small>
 Open-Source 'Package Analysis' Tool Finds Malicious npm, PyPI Packages
 BleepingComputer
 Ax Sharma
@@ -555,9 +555,10 @@ May 1, 2022
 The Open Source Security Foundation (OpenSSF)'s prototype Package Analysis tool caught more than 200 malicious npm and Python Package Index (PyPI) packages in its initial run. Released this week on software development platform GitHub, the tool is designed to identify and counter malware in open source registries. OpenSSF's Caleb Brown and David A. Wheeler said the tool was developed to help users "understand the behavior and capabilities of packages available on open-source repositories: what files do they access, what addresses do they connect to, and what commands do they run? The project also tracks changes in how packages behave over time, to identify when previously safe software begins acting suspiciously." Most of the malicious elements the tool identified in its initial run were dependency confusion and typosquatting exploits.
 
 [[https://www.bleepingcomputer.com/news/security/open-source-package-analysis-tool-finds-malicious-npm-pypi-packages/][open source package analysis]]
+#+REVEAL_HTML: </small>
 
 #+REVEAL: split:t
-
+#+REVEAL_HTML: <small>
 Algorithm That Screens for Child Neglect Raises Concerns
 Associated Press
 Sally Ho; Garance Burke
@@ -566,25 +567,20 @@ April 29, 2022
 A review of an algorithm designed to screen for child neglect has raised worrying issues, including questions of reliability. Carnegie Mellon University researchers analyzed a tool used by Allegheny County, PA, which in its first years of use identified a disproportionate number of Black children for "mandatory neglect" probes compared to white children; social workers also disagreed with the algorithm's risk scores about one-third of the time. Critics say the algorithm gives data on poor people excessive influence in deciding families' fates, and they caution against local officials' increasing reliance on artificial intelligence. Advocates fear that if similar tools are adopted by other child welfare systems with little to no human intervention, they could compound racial disparities.
 
 [[https://apnews.com/article/child-welfare-algorithm-investigation-9497ee937e0053ad4144a86c68241ef1][child welfare algorithm]]
+#+REVEAL_HTML: </small>
 
 ** Computing innovation contracts
    :PROPERTIES:
    :CREATED:  [2022-05-06 Fri 11:48]
    :END:
 
-Find the data in your computing innovation story. 
-
-What data is consumed by the computer? 
-
-How is the data transformed? 
-
-What is result is produced by the computation?
-
-What concerns regarding data storage,  data security, or data privacy are raised by this innovation?
-
-What potential benefit does this innovation promise? 
-
-What potential harm might this innovation cause? 
+- Find the data in your computing innovation story. 
+- What data is consumed by the computer? 
+- How is the data transformed? 
+- What is result is produced by the computation?
+- What concerns regarding data storage,  data security, or data privacy are raised by this innovation?
+- What potential benefit does this innovation promise? 
+- What potential harm might this innovation cause? 
 
 * Part 2 :noexport_reveal:
 * Let's talk about algebra
@@ -605,6 +601,10 @@ containing the answer?
 2 + 2 is an expression, it's value is 4
 The answer is 4
 
+2+2=4 is an expression that evaluated to true. 
+
+Solution checking and whether a given value turns an expression to a true statement. 
+
 ** Functions
 
 Repeatable computational abstractions. The target of elementary and middle school mathematics is modeling and reasoning and expressions and equations standards are functions.
@@ -612,6 +612,22 @@ Repeatable computational abstractions. The target of elementary and middle schoo
 Equations are a catch all phrase in mathematics education that often includes what we mean by functions in algebra.
 
 Notice what changes, collect and plot data, predict/interpolate values
+
+** Operators
+   :PROPERTIES:
+   :CREATED:  [2022-05-09 Mon 15:19]
+   :END:
+
+Binary operators are given two arguments
++, ×, ÷, -
+
+Unary operators are given one argument
+$a^b$, $sqrt{2}
+
+Functions express operations as name and some any number of arguments
+
+When we use name such as
+sum, difference, product, and quotient we are invoking the function. 
 
 ** A formula is a function
    :PROPERTIES:
@@ -949,8 +965,6 @@ Assume you have the names *first_column* and *second_column* in your named range
 
 Creating custom arrays
 You can also create your own arrays in a formula in your spreadsheet by using brackets { }. The brackets allow you to group values, which can be a single number, string or boolean, or a rangeof values. 
-
-
 
 ** Horizontal and Vertical Stacking
    :PROPERTIES:
