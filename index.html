@@ -14,18 +14,29 @@
 <link rel="stylesheet" href="reveal.js/dist/theme/sky.css" id="theme"/>
 
 <link rel="stylesheet" href="local.css"/>
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </head>
 <body>
 <div class="reveal">
 <div class="slides">
 <section id="sec-title-slide"><h1 class="title">So This is CS!</h1><p class="subtitle"></p>
-<h2 class="author">Eric Allatta</h2><p class="date">Created: 2022-05-07 Sat 06:10</p>
+<h2 class="author">Eric Allatta</h2><p class="date">Created: 2022-05-10 Tue 12:45</p>
 </section>
 
 <section>
-<section id="slide-orga9928ae">
-<h2 id="orga9928ae">Welcome to So this is CS!</h2>
+<section id="slide-org64f77e0">
+<h2 id="org64f77e0">Welcome to So this is CS!</h2>
 <small>
 <p>
 Press S for speaker notes
@@ -43,10 +54,8 @@ A Great note
 </aside>
 
 </section>
-</section>
-<section>
-<section id="slide-org9744f4e">
-<h2 id="org9744f4e">About Me</h2>
+<section id="slide-orga9c9af0">
+<h3 id="orga9c9af0">About Me</h3>
 <ul>
 <li>Husband to Jill and Father to Joy (11), Bruce (6), and Rose (18m)</li>
 <li>Freelance designer, builder, teacher</li>
@@ -62,10 +71,8 @@ Engineering</li>
 </div>
 
 </section>
-</section>
-<section>
-<section id="slide-org34d6bab">
-<h2 id="org34d6bab">The Big picture</h2>
+<section id="slide-org2fca5f0">
+<h3 id="org2fca5f0">The Big picture</h3>
 <p>
 Particpants will&#x2026;
 </p>
@@ -78,15 +85,13 @@ and  classroom activities adaptable for a range of ages,</li>
 </ul>
 
 </section>
-</section>
-<section>
-<section id="slide-orgbec32c1">
-<h2 id="orgbec32c1">The Plan</h2>
-<div class="outline-text-2" id="text-orgbec32c1">
+<section id="slide-orge959701">
+<h3 id="orge959701">The Plan</h3>
+<div class="outline-text-3" id="text-orge959701">
 </div>
 </section>
-<section id="slide-orga007954">
-<h3 id="orga007954">Part 1</h3>
+<section id="slide-orga7c8402">
+<h4 id="orga7c8402">Part 1</h4>
 <ul>
 <li>Computing in the News</li>
 <li>Computers</li>
@@ -97,8 +102,8 @@ and  classroom activities adaptable for a range of ages,</li>
 </ul>
 
 </section>
-<section id="slide-org6175702">
-<h3 id="org6175702">Part 2</h3>
+<section id="slide-orgfafc7cc">
+<h4 id="orgfafc7cc">Part 2</h4>
 <ul>
 <li>Algebra</li>
 <li>Spreadsheets</li>
@@ -108,22 +113,18 @@ and  classroom activities adaptable for a range of ages,</li>
 </ul>
 
 </section>
-</section>
-<section>
-<section id="slide-orgd829231">
-<h2 id="orgd829231">Anchor Doc + parking lot</h2>
+<section id="slide-orgc2b1961">
+<h3 id="orgc2b1961">Anchor Doc + parking lot</h3>
 <p>
 <a href="https://docs.google.com/document/d/1S6g80qzFP6Kh0nqy8_QEfPO60P5rcDLoc_Z2H-WoZUc/edit#">anchor doc</a>
 </p>
 
 </section>
+<section id="slide-org1c9d327">
+<h3 id="org1c9d327">Roles</h3>
 </section>
-<section>
-<section id="slide-orga062abd">
-<h2 id="orga062abd">Roles</h2>
-</section>
-<section id="slide-orgd84b595">
-<h3 id="orgd84b595">Roles</h3>
+<section id="slide-org12cec51">
+<h4 id="org12cec51">Roles</h4>
 <p class="fragment (appear)">
 Roles describe areas of focus during team or group activities.
 </p>
@@ -135,9 +136,9 @@ More roles can be added but the core roles should always be present.
 </p>
 
 </section>
-<section id="slide-orgd84b595-split">
+<section id="slide-org12cec51-split">
 
-<h3>Roles</h3>
+<h4>Roles</h4>
 <ul>
 <li class="fragment appear">Reporter</li>
 <li class="fragment appear">Time keeper</li>
@@ -145,67 +146,56 @@ More roles can be added but the core roles should always be present.
 
 </ul>
 
-</section>
-<section id="slide-org0baf7aa">
-<h4 id="org0baf7aa">Global roles</h4>
-</section>
-<section id="slide-org2194e5c">
-<h4 id="org2194e5c">Reporter</h4>
+<ul class="org-ul">
+<li><a id="org7eb88e0"></a>Global roles<br /></li>
+<li><a id="org5203cb4"></a>Reporter<br />
 <ul>
 <li>maintain parking lot,</li>
 <li>record and report back,</li>
 <li>monitor chat</li>
 
 </ul>
+</li>
 
-</section>
-<section id="slide-org274130e">
-<h4 id="org274130e">Time keeper</h4>
+<li><a id="org0c39242"></a>Time keeper<br />
 <ul>
 <li>monitor lecture length</li>
 <li>monitor break length</li>
 <li>call out timing alerts, convey pacing consensus</li>
 
 </ul>
+</li>
 
-</section>
-<section id="slide-org7094ba3">
-<h4 id="org7094ba3">Facilitator</h4>
-</section>
-<section id="slide-orgddb9487">
-<h4 id="orgddb9487">Local Roles</h4>
-</section>
-<section id="slide-orgd28e0da">
-<h4 id="orgd28e0da">Reporter</h4>
+<li><a id="org64f65f2"></a>Facilitator<br /></li>
+<li><a id="orgf6f4be8"></a>Local Roles<br /></li>
+<li><a id="orgb46f906"></a>Reporter<br />
 <ul>
 <li>record and report team conversation</li>
 <li>special focus on parking lot questions</li>
 
 </ul>
+</li>
 
-</section>
-<section id="slide-orgfd10009">
-<h4 id="orgfd10009">Time keeper</h4>
+<li><a id="orgda6efa3"></a>Time keeper<br />
 <ul>
 <li>keep us honest</li>
 <li>special focus on timing of activities and balanced group participation</li>
 
 </ul>
+</li>
 
-</section>
-<section id="slide-org85d5023">
-<h4 id="org85d5023">Facilitator</h4>
+<li><a id="org19fb917"></a>Facilitator<br />
 <ul>
 <li>know what "we are supposed to be doing right now"</li>
 <li>special focus on tasks, deliverables/goals/objectives, and flow</li>
 
 </ul>
+</li>
+</ul>
 
 </section>
-</section>
-<section>
-<section id="slide-orge31ac55">
-<h2 id="orge31ac55">Notice &amp; Wonder</h2>
+<section id="slide-org928c5d4">
+<h3 id="org928c5d4">Notice &amp; Wonder</h3>
 <p>
 Notice means what do you see. Call out the obvious. Make simple observations. Go for quantity.
 </p>
@@ -227,8 +217,8 @@ What constraints? What motivations?
 </section>
 </section>
 <section>
-<section id="slide-orgae9e1a4">
-<h2 id="orgae9e1a4">Computing in the news</h2>
+<section id="slide-org163e721">
+<h2 id="org163e721">Computing in the news</h2>
 <aside class="notes">
 <p>
 I've collected 4 stories that We're in print this week and and represent examples of computing in the wild. We'll read each headline they will set up breakout rooms for each of the different articles you'll choose an article to read and then visit that break out room. The goal is to find the computer in the article
@@ -237,14 +227,14 @@ I've collected 4 stories that We're in print this week and and represent example
 </aside>
 
 </section>
-<section id="slide-org19500e2">
-<h4 id="org19500e2">Resources</h4>
+<section id="slide-org852d5df">
+<h4 id="org852d5df">Resources</h4>
 <p>
 <a href="https://technews.acm.org">ACM Technews</a> 
 </p>
 
 </section>
-<section id="slide-org19500e2-split">
+<section id="slide-org852d5df-split">
 
 <h4>Resources</h4>
 <p>
@@ -256,7 +246,7 @@ An artificial intelligence (AI) software solution developed by Intel and Classro
 </p>
 
 </section>
-<section id="slide-org19500e2-split">
+<section id="slide-org852d5df-split">
 
 <h4>Resources</h4>
 <p>
@@ -270,7 +260,7 @@ University of California, San Diego (UCSD) computer scientists have
 </p>
 
 </section>
-<section id="slide-org19500e2-split">
+<section id="slide-org852d5df-split">
 
 <h4>Resources</h4>
 <p>
@@ -283,7 +273,7 @@ Robots are socialize with nursing home residents, telling them jokes
 </p>
 
 </section>
-<section id="slide-org19500e2-split">
+<section id="slide-org852d5df-split">
 
 <h4>Resources</h4>
 
@@ -296,7 +286,7 @@ The app-analytics firm Sensor Tower Inc. found that 1 out of 10 mobile games use
 </p>
 
 </section>
-<section id="slide-org19500e2-split">
+<section id="slide-org852d5df-split">
 
 <h4>Resources</h4>
 <p>
@@ -309,28 +299,28 @@ University of Georgia researchers created a model to help identify
 </p>
 
 </section>
-<section id="slide-orgd39deda">
-<h4 id="orgd39deda">Connections</h4>
+<section id="slide-orga104d2d">
+<h4 id="orga104d2d">Connections</h4>
 </section>
 </section>
 <section>
-<section id="slide-orgb517269">
-<h2 id="orgb517269">Let's talk about computers</h2>
-<div class="outline-text-2" id="text-orgb517269">
+<section id="slide-org197e8e3">
+<h2 id="org197e8e3">Let's talk about computers</h2>
+<div class="outline-text-2" id="text-org197e8e3">
 </div>
 </section>
-<section id="slide-orgcfa7eb5">
-<h3 id="orgcfa7eb5">Computers</h3>
+<section id="slide-orgbee00b0">
+<h3 id="orgbee00b0">Computers</h3>
 <ul>
 <li>consume data (which includes instructions),</li>
-<li>transform it using instructions (which can be sealed out for new instructions), and</li>
+<li>transform it using instructions, and</li>
 <li>return some useful result.</li>
 
 </ul>
 
 </section>
-<section id="slide-org7d337fc">
-<h3 id="org7d337fc">From person to machine</h3>
+<section id="slide-org45b8aa5">
+<h3 id="org45b8aa5">From person to machine</h3>
 <p>
 The history of math and science, of celestial navigation, understanding the cosmos, and exploring the world around us, 
 </p>
@@ -348,7 +338,7 @@ Long before what we now think of as a computer.
 </p>
 
 </section>
-<section id="slide-org7d337fc-split">
+<section id="slide-org45b8aa5-split">
 
 <h3>From person to machine</h3>
 <p>
@@ -356,7 +346,7 @@ Mechanical aids like the abacus and rote algorithms add mechanical
 memory to the computation process.
 </p>
 </section>
-<section id="slide-org7d337fc-split">
+<section id="slide-org45b8aa5-split">
 
 <h3>From person to machine</h3>
 
@@ -367,8 +357,8 @@ computers
 </p>
 
 </section>
-<section id="slide-org6fb9b78">
-<h3 id="org6fb9b78">Switches</h3>
+<section id="slide-org6f19555">
+<h3 id="org6f19555">Switches</h3>
 <p>
 Flashlights, Telegraph, Boolean Algebra
 </p>
@@ -387,8 +377,8 @@ the machine
 </p>
 
 </section>
-<section id="slide-orgce9092b">
-<h3 id="orgce9092b">Structure</h3>
+<section id="slide-org0293621">
+<h3 id="org0293621">Structure</h3>
 <p>
 Programming a computer means working with the structural precision required by
 computers. Computers consume data, apply instructions to transform
@@ -396,8 +386,8 @@ that data, and produce results in some form that we can use.
 </p>
 
 </section>
-<section id="slide-org7cedea9">
-<h3 id="org7cedea9">Turing</h3>
+<section id="slide-org82de66a">
+<h3 id="org82de66a">Turing</h3>
 <p>
 In 1936 Alan Turing described a machine that the could take an infinite list of data (memory) and a finite list of instructions to implement any algorithm. 
 </p>
@@ -405,11 +395,11 @@ In 1936 Alan Turing described a machine that the could take an infinite list of 
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Model_of_a_Turing_machine.jpg">
 
 </section>
-<section id="slide-org4f19544">
-<h3 id="org4f19544">Connections</h3>
+<section id="slide-orgfc8c7c3">
+<h3 id="orgfc8c7c3">Connections</h3>
 </section>
-<section id="slide-org2f01628">
-<h3 id="org2f01628">Resources</h3>
+<section id="slide-org5326d0c">
+<h3 id="org5326d0c">Resources</h3>
 <ul>
 <li>Code: The hidden language of computing machines</li>
 <li><a href="https://nand2tetris.org">Nand2Tetris</a></li>
@@ -446,16 +436,16 @@ ACM Tech News is a great resource for students finding are for goals that are ac
 </section>
 </section>
 <section>
-<section id="slide-org9052e1d">
-<h2 id="org9052e1d">Let's talk about the internet</h2>
-<div class="outline-text-2" id="text-org9052e1d">
+<section id="slide-orgee0b5fe">
+<h2 id="orgee0b5fe">Let's talk about the internet</h2>
+<div class="outline-text-2" id="text-orgee0b5fe">
 </div>
 </section>
-<section id="slide-org7d96014">
-<h3 id="org7d96014">How am I Connected Boggel</h3>
+<section id="slide-orgaafdaee">
+<h3 id="orgaafdaee">How am I Connected Boggel</h3>
 </section>
-<section id="slide-org439bbac">
-<h4 id="org439bbac">How to play</h4>
+<section id="slide-orga9fb04a">
+<h4 id="orga9fb04a">How to play</h4>
 <p>
 Set a 1 minute timer
 Record all of the means/purposes you used to connect to the internet.
@@ -477,13 +467,13 @@ each other have a good chat
 </aside>
 
 </section>
-<section id="slide-org8b2f7c8">
-<h3 id="org8b2f7c8">Code.org internet simulator</h3>
-<div class="outline-text-3" id="text-org8b2f7c8">
+<section id="slide-org7434e48">
+<h3 id="org7434e48">Code.org internet simulator</h3>
+<div class="outline-text-3" id="text-org7434e48">
 </div>
 </section>
-<section id="slide-orgcb65624">
-<h4 id="orgcb65624">Internet Simulator Overview</h4>
+<section id="slide-org40834bf">
+<h4 id="org40834bf">Internet Simulator Overview</h4>
 <aside class="notes">
 <p>
 In the Internet simulator activities we will present a problem And demonstrate setting it up but not solve it together We'll enter breakout rooms to continue working on the problem connecting to the people in our room through the simulator. We need to develop an agreement between ourselves. We are acting like computers in a network network so we are inserting ourselves into the communication of the machines.. Only by coming up with an agreement can we reliably get our messages across
@@ -492,8 +482,8 @@ In the Internet simulator activities we will present a problem And demonstrate s
 </aside>
 
 </section>
-<section id="slide-orgcf7f320">
-<h4 id="orgcf7f320">Activity Explore the Simulator</h4>
+<section id="slide-org3aed228">
+<h4 id="org3aed228">Activity Explore the Simulator</h4>
 <dl>
 <dt>Simulator</dt><dd><a href="https://studio.code.org/s/csp2-2021/lessons/1/levels/1?section_id=4067479">First Simulator</a></dd>
 <dt>Context</dt><dd>Whole group</dd>
@@ -502,12 +492,12 @@ In the Internet simulator activities we will present a problem And demonstrate s
 
 </dl>
 </section>
-<section id="slide-orgcf7f320-split">
+<section id="slide-org3aed228-split">
 
 <h4>Activity Explore the Simulator</h4>
 
 <ul class="org-ul">
-<li><a id="orgb6673c7"></a>Instructions<br />
+<li><a id="orgd8660b4"></a>Instructions<br />
 <p>
 Two group members connect to each other in the simulator
 </p>
@@ -525,8 +515,8 @@ simulator.
 </ul>
 
 </section>
-<section id="slide-orgf7f7b32">
-<h4 id="orgf7f7b32">Activity Send/Receive a Bit</h4>
+<section id="slide-org4f94e24">
+<h4 id="org4f94e24">Activity Send/Receive a Bit</h4>
 <dl>
 <dt>Simulator</dt><dd><a href="https://studio.code.org/s/netsim/lessons/2/levels/1">Second
 Simulator</a></dd>
@@ -537,12 +527,12 @@ connected member.</dd>
 
 </dl>
 </section>
-<section id="slide-orgf7f7b32-split">
+<section id="slide-org4f94e24-split">
 
 <h4>Activity Send/Receive a Bit</h4>
 
 <ul class="org-ul">
-<li><a id="org6d94f21"></a>Instructions<br />
+<li><a id="org85ec58e"></a>Instructions<br />
 <p>
 Develop a protocol that allows one bit to be sent back and forth using
 a metronome
@@ -551,14 +541,14 @@ a metronome
 </ul>
 
 </section>
-<section id="slide-orgaf9f6a8">
-<h4 id="orgaf9f6a8">Activity Send/Receive a Word</h4>
+<section id="slide-org3400087">
+<h4 id="org3400087">Activity Send/Receive a Word</h4>
 </section>
-<section id="slide-org72caaeb">
-<h4 id="org72caaeb">Activity Send/Receive/Confirm a Word</h4>
+<section id="slide-orgb3a6ce9">
+<h4 id="orgb3a6ce9">Activity Send/Receive/Confirm a Word</h4>
 </section>
-<section id="slide-org3d970fb">
-<h3 id="org3d970fb">Protocols and Abstraction Layers</h3>
+<section id="slide-org8bb52a6">
+<h3 id="org8bb52a6">Protocols and Abstraction Layers</h3>
 <p>
 Do one job and don't repeat yourself!
 </p>
@@ -575,29 +565,29 @@ from each other.
 </aside>
 
 </section>
-<section id="slide-org885c967">
-<h3 id="org885c967">Packets and Redundancy</h3>
+<section id="slide-org641819e">
+<h3 id="org641819e">Packets and Redundancy</h3>
 <p>
 So how do messages get from one place to another?
 </p>
 
 </section>
-<section id="slide-orga1d4b64">
-<h4 id="orga1d4b64">Redundancy</h4>
+<section id="slide-orgeaca40d">
+<h4 id="orgeaca40d">Redundancy</h4>
 </section>
-<section id="slide-org4cc372b">
-<h4 id="org4cc372b">Undersea cables</h4>
+<section id="slide-org5592928">
+<h4 id="org5592928">Undersea cables</h4>
 <img src=https://i0.wp.com/www.maproomblog.com/xq/wp-content/uploads/2022/04/submarine-cable-map-1024x728.jpg?ssl=1">
 
 </section>
-<section id="slide-orgb6464aa">
-<h4 id="orgb6464aa">Passwords</h4>
+<section id="slide-org727f65f">
+<h4 id="org727f65f">Passwords</h4>
 </section>
-<section id="slide-orgcc46ac3">
-<h3 id="orgcc46ac3">Connections</h3>
+<section id="slide-org13ebcaf">
+<h3 id="org13ebcaf">Connections</h3>
 </section>
-<section id="slide-org2554315">
-<h3 id="org2554315">Resources</h3>
+<section id="slide-org8c7f8af">
+<h3 id="org8c7f8af">Resources</h3>
 <ul>
 <li><a href="https://www.submarinecablemap.com/">https://www.submarinecablemap.com/</a></li>
 <li><a href="https://www.youtube.com/playlist?list=PLzdnOPI1iJNfMRZm5DDxco3UdsFegvuB7">Code.org How the Internet Works playlist</a></li>
@@ -608,13 +598,13 @@ So how do messages get from one place to another?
 </section>
 </section>
 <section>
-<section id="slide-org656cf73">
-<h2 id="org656cf73">Let's talk about web creation and portfolio sites</h2>
-<div class="outline-text-2" id="text-org656cf73">
+<section id="slide-orge0a6a03">
+<h2 id="orge0a6a03">Let's talk about web creation and portfolio sites</h2>
+<div class="outline-text-2" id="text-orge0a6a03">
 </div>
 </section>
-<section id="slide-org9a9d4e5">
-<h3 id="org9a9d4e5">Choosing tools</h3>
+<section id="slide-org5b39cf6">
+<h3 id="org5b39cf6">Choosing tools</h3>
 <ul>
 <li><a href="https://docs.google.com">Google Docs</a></li>
 <li><a href="https://sites.google.com">Google Sites</a></li>
@@ -625,8 +615,8 @@ So how do messages get from one place to another?
 </ul>
 
 </section>
-<section id="slide-org56b7119">
-<h3 id="org56b7119">Motivating Web Creation</h3>
+<section id="slide-org298e5d6">
+<h3 id="org298e5d6">Motivating Web Creation</h3>
 <p>
 Google docs rule the academic lives of many students.
 </p>
@@ -640,8 +630,8 @@ Freedom with structure offers ownership of digital creations.
 </p>
 
 </section>
-<section id="slide-org71f38bb">
-<h3 id="org71f38bb">Integration Tips</h3>
+<section id="slide-org5e5c47c">
+<h3 id="org5e5c47c">Integration Tips</h3>
 <ul>
 <li>Offer web creation skills to other teachers as an alternate work
 product format.</li>
@@ -653,8 +643,8 @@ develop a portfolio.</li>
 </ul>
 
 </section>
-<section id="slide-orgcfd5db2">
-<h3 id="orgcfd5db2">Structure documents</h3>
+<section id="slide-org649838e">
+<h3 id="org649838e">Structure documents</h3>
 <p>
 Can be read by a computer
 </p>
@@ -664,8 +654,8 @@ Can be read by a computer
 </p>
 
 </section>
-<section id="slide-org4cd83b0">
-<h3 id="org4cd83b0">Markup languages</h3>
+<section id="slide-orgf5a77c0">
+<h3 id="orgf5a77c0">Markup languages</h3>
 <ul>
 <li>A lighter introduction to structured text</li>
 <li>HTML is a markup language, not a programming language</li>
@@ -676,19 +666,19 @@ editors like Word, Docs, Pages, etc.</li>
 </ul>
 
 </section>
-<section id="slide-orgc233792">
-<h4 id="orgc233792">HTML isn't the only option</h4>
-<div class="outline-text-4" id="text-orgc233792">
+<section id="slide-org7221f5a">
+<h4 id="org7221f5a">HTML isn't the only option</h4>
+<div class="outline-text-4" id="text-org7221f5a">
 </div>
 <ul class="org-ul">
-<li><a id="orgfaa66de"></a>Lightweight markup languages<br />
+<li><a id="orgd273fa1"></a>Lightweight markup languages<br />
 <ul>
 <li>AsciiDoc, Markdown, Org-mode</li>
 
 </ul>
 </li>
 
-<li><a id="orgd0b1878"></a>Heavier markup languages<br />
+<li><a id="orgab7c162"></a>Heavier markup languages<br />
 <ul>
 <li>Latex, HTML</li>
 
@@ -697,8 +687,8 @@ editors like Word, Docs, Pages, etc.</li>
 </ul>
 
 </section>
-<section id="slide-org1c68d31">
-<h3 id="org1c68d31">Symbols and Syntax</h3>
+<section id="slide-orgcecdbd5">
+<h3 id="orgcecdbd5">Symbols and Syntax</h3>
 <p>
 Computers need data to have structure.
 </p>
@@ -725,8 +715,8 @@ instructions?
 </aside>
 
 </section>
-<section id="slide-orge960a4d">
-<h3 id="orge960a4d">HTML Tags</h3>
+<section id="slide-orge73fc7f">
+<h3 id="orge73fc7f">HTML Tags</h3>
 <aside class="notes">
 <p>
 Compare indenting in a word process &#x2013; hit tab, see the word move &#x2013;
@@ -738,13 +728,13 @@ can recognize. In HTML the symbols are called tags and use the "&lt;" and
 </aside>
 
 </section>
-<section id="slide-org8ba84df">
-<h3 id="org8ba84df">Activities</h3>
-<div class="outline-text-3" id="text-org8ba84df">
+<section id="slide-orgb05144f">
+<h3 id="orgb05144f">Activities</h3>
+<div class="outline-text-3" id="text-orgb05144f">
 </div>
 </section>
-<section id="slide-orgd3a81dd">
-<h4 id="orgd3a81dd">Create a webpage from a google doc</h4>
+<section id="slide-org218ed99">
+<h4 id="org218ed99">Create a webpage from a google doc</h4>
 <ul>
 <li><img src="./assets/w3schools_webpage_layout.png" alt="w3schools_webpage_layout.png" /></li>
 <li><a href="https://www.dropbox.com/s/tbar0n559b90ocy/doc_site_publish_2022-04-30.mkv?dl=0">Walk through video</a></li>
@@ -752,16 +742,16 @@ can recognize. In HTML the symbols are called tags and use the "&lt;" and
 </ul>
 
 </section>
-<section id="slide-org87f63da">
-<h4 id="org87f63da">Try markdown</h4>
+<section id="slide-orgefb0191">
+<h4 id="orgefb0191">Try markdown</h4>
 <ul>
 <li><a href="https://markdownlivepreview.com/">https://markdownlivepreview.com/</a></li>
 
 </ul>
 
 </section>
-<section id="slide-orgee792e9">
-<h4 id="orgee792e9">Host a website on github pages</h4>
+<section id="slide-orgebb8123">
+<h4 id="orgebb8123">Host a website on github pages</h4>
 <ul>
 <li>Follow a tutorial to create a GitHub Pages site</li>
 <li><a href="http://jmcglone.com/guides/github-pages/">http://jmcglone.com/guides/github-pages/</a></li>
@@ -769,8 +759,8 @@ can recognize. In HTML the symbols are called tags and use the "&lt;" and
 </ul>
 
 </section>
-<section id="slide-org186d4c5">
-<h3 id="org186d4c5">Examples</h3>
+<section id="slide-org62a91e0">
+<h3 id="org62a91e0">Examples</h3>
 <p>
 <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTkBkjq86c_cVULPqP0ak4kkwHh45cWs89lRLd_DtSUFDQcfbCtGRRyVFxVqwjEAZC6YT6ltdDcolw0/pubhtml?gid=0&amp;amp;single=true&amp;amp;widget=true&amp;amp;headers=false">SY18-19 Learning Blogs</a>
 </p>
@@ -778,13 +768,13 @@ can recognize. In HTML the symbols are called tags and use the "&lt;" and
 </section>
 </section>
 <section>
-<section id="slide-org533fb58">
-<h2 id="org533fb58">Let's talk about email</h2>
-<div class="outline-text-2" id="text-org533fb58">
+<section id="slide-org7fbf044">
+<h2 id="org7fbf044">Let's talk about email</h2>
+<div class="outline-text-2" id="text-org7fbf044">
 </div>
 </section>
-<section id="slide-org2266bec">
-<h3 id="org2266bec">Locations: labels, tags, folders</h3>
+<section id="slide-org8d82cde">
+<h3 id="org8d82cde">Locations: labels, tags, folders</h3>
 <p>
 Folders remind us of putting a piece of paper in a filing cabinet.
 </p>
@@ -800,8 +790,8 @@ In a labeling system items can exist in more than one location.
 </p>
 
 </section>
-<section id="slide-org9b33945">
-<h3 id="org9b33945">Archive, Star, Delete</h3>
+<section id="slide-orga0a4b49">
+<h3 id="orga0a4b49">Archive, Star, Delete</h3>
 <dl>
 <dt>Archive</dt><dd>remove the inbox label</dd>
 <dt>Star</dt><dd>add a star</dd>
@@ -811,8 +801,8 @@ In a labeling system items can exist in more than one location.
 </dl>
 
 </section>
-<section id="slide-orgefd8e70">
-<h3 id="orgefd8e70">Analyze</h3>
+<section id="slide-org3a02770">
+<h3 id="org3a02770">Analyze</h3>
 <p>
 What kind of messages are you receiving?
 </p>
@@ -824,8 +814,8 @@ communication blasts, attendance
 </p>
 
 </section>
-<section id="slide-org710ccab">
-<h3 id="org710ccab">Process</h3>
+<section id="slide-orgd3a3b09">
+<h3 id="orgd3a3b09">Process</h3>
 <p>
 Inbox -&gt; Starred -&gt; Archive
 g i s e
@@ -841,8 +831,8 @@ r
 </p>
 
 </section>
-<section id="slide-orge336448">
-<h3 id="orge336448">Stars and flags</h3>
+<section id="slide-org07d5e53">
+<h3 id="org07d5e53">Stars and flags</h3>
 <ul>
 <li>Starred is the activity section</li>
 <li>Multiple stars can represent different kinds of action</li>
@@ -851,8 +841,8 @@ r
 </ul>
 
 </section>
-<section id="slide-org7876c2d">
-<h3 id="org7876c2d">Filters</h3>
+<section id="slide-orga4c3427">
+<h3 id="orga4c3427">Filters</h3>
 <p>
 Inbox is a filter. A filter catches some values and let's others
 through. Inbox shows us messages that contain the metadata "Inbox". 
@@ -864,56 +854,56 @@ star or flag.
 </p>
 
 </section>
-<section id="slide-orgf59d9b0">
-<h3 id="orgf59d9b0">Rules</h3>
+<section id="slide-orgb476e97">
+<h3 id="orgb476e97">Rules</h3>
 </section>
-<section id="slide-orgd607d33">
-<h3 id="orgd607d33">Notifications</h3>
+<section id="slide-org6720ba5">
+<h3 id="org6720ba5">Notifications</h3>
 </section>
-<section id="slide-org9017a90">
-<h3 id="org9017a90">Connections</h3>
+<section id="slide-orga556de0">
+<h3 id="orga556de0">Connections</h3>
 </section>
 </section>
 <section>
-<section id="slide-org22516b2">
-<h2 id="org22516b2">Let's talk about running a computer lab</h2>
-<div class="outline-text-2" id="text-org22516b2">
+<section id="slide-org84b2a49">
+<h2 id="org84b2a49">Let's talk about running a computer lab</h2>
+<div class="outline-text-2" id="text-org84b2a49">
 </div>
 </section>
-<section id="slide-orgae06402">
-<h3 id="orgae06402">Room layout</h3>
+<section id="slide-org89b57a5">
+<h3 id="org89b57a5">Room layout</h3>
 </section>
-<section id="slide-org85d250c">
-<h3 id="org85d250c">Monitoring and Circulation</h3>
+<section id="slide-orgccd1fef">
+<h3 id="orgccd1fef">Monitoring and Circulation</h3>
 </section>
-<section id="slide-org97371fd">
-<h3 id="org97371fd">Structure</h3>
+<section id="slide-org3b32080">
+<h3 id="org3b32080">Structure</h3>
 </section>
-<section id="slide-orgf2cd9c3">
-<h3 id="orgf2cd9c3">Rapport</h3>
+<section id="slide-orgd2c5682">
+<h3 id="orgd2c5682">Rapport</h3>
 </section>
-<section id="slide-org7834642">
-<h3 id="org7834642">Software</h3>
+<section id="slide-org4e0c2ad">
+<h3 id="org4e0c2ad">Software</h3>
 </section>
-<section id="slide-org3809cd2">
-<h3 id="org3809cd2">Debugging</h3>
+<section id="slide-orga559c6e">
+<h3 id="orga559c6e">Debugging</h3>
 </section>
-<section id="slide-org1602cdd">
-<h3 id="org1602cdd">Seating Charts and Pair Programming</h3>
+<section id="slide-orgee07c59">
+<h3 id="orgee07c59">Seating Charts and Pair Programming</h3>
 </section>
-<section id="slide-org35b8534">
-<h3 id="org35b8534">Work products: analog and digital</h3>
+<section id="slide-orgeb55a4e">
+<h3 id="orgeb55a4e">Work products: analog and digital</h3>
 </section>
-<section id="slide-org30fb3e5">
-<h3 id="org30fb3e5">Assessment:  cultivating success</h3>
+<section id="slide-org4308973">
+<h3 id="org4308973">Assessment:  cultivating success</h3>
 </section>
 </section>
 <section>
-<section id="slide-org6980a53">
-<h2 id="org6980a53">Computing in the news REDUX</h2>
+<section id="slide-org9942c90">
+<h2 id="org9942c90">Computing in the news REDUX</h2>
 </section>
-<section id="slide-org0d2ec03">
-<h3 id="org0d2ec03">Find the computer</h3>
+<section id="slide-org9776b33">
+<h3 id="org9776b33">Find the computer</h3>
 <p>
 Recall: computers consume data, transform data based on some instructions, and return a useful result
 </p>
@@ -923,8 +913,8 @@ In each of these stories there is a computer. Find the computer by finding the d
 </p>
 
 </section>
-<section id="slide-org349e085">
-<h3 id="org349e085">Articles</h3>
+<section id="slide-org9ed2c68">
+<h3 id="org9ed2c68">Articles</h3>
 <small>
 <p>
 The Problems with Elon Musk's Plan to Open-Source the Twitter Algorithm
@@ -942,7 +932,7 @@ Elon Musk’s announced plans for the Twitter social network include open-sourci
 </p>
 </small>
 </section>
-<section id="slide-org349e085-split">
+<section id="slide-org9ed2c68-split">
 
 <h3>Articles</h3>
 <small>
@@ -962,7 +952,7 @@ North Carolina State University (NC State) researchers modified an algorithm dev
 </p>
 
 </section>
-<section id="slide-org349e085-split">
+<section id="slide-org9ed2c68-split">
 
 <h3>Articles</h3>
 <small>
@@ -983,7 +973,7 @@ The Open Source Security Foundation (OpenSSF)'s prototype Package Analysis tool 
 </small>
 
 </section>
-<section id="slide-org349e085-split">
+<section id="slide-org9ed2c68-split">
 
 <h3>Articles</h3>
 <small>
@@ -1002,9 +992,10 @@ A review of an algorithm designed to screen for child neglect has raised worryin
 <a href="https://apnews.com/article/child-welfare-algorithm-investigation-9497ee937e0053ad4144a86c68241ef1">child welfare algorithm</a>
 </p>
 </small>
+
 </section>
-<section id="slide-org13bed5b">
-<h3 id="org13bed5b">Computing innovation contracts</h3>
+<section id="slide-orgf8921c1">
+<h3 id="orgf8921c1">Computing innovation contracts</h3>
 <ul>
 <li>Find the data in your computing innovation story.</li>
 <li>What data is consumed by the computer?</li>
@@ -1019,13 +1010,13 @@ A review of an algorithm designed to screen for child neglect has raised worryin
 </section>
 </section>
 <section>
-<section id="slide-org95c7ffe">
-<h2 id="org95c7ffe">Let's talk about algebra</h2>
-<div class="outline-text-2" id="text-org95c7ffe">
+<section id="slide-orgedbfd6f">
+<h2 id="orgedbfd6f">Let's talk about algebra</h2>
+<div class="outline-text-2" id="text-orgedbfd6f">
 </div>
 </section>
-<section id="slide-org00a513f">
-<h3 id="org00a513f">Equations</h3>
+<section id="slide-orge78138b">
+<h3 id="orge78138b">Equations</h3>
 <p>
 Computer science can help us use precision in our mathematical language.
 </p>
@@ -1040,16 +1031,24 @@ containing the answer?
 </p>
 
 </section>
-<section id="slide-orge01e814">
-<h3 id="orge01e814">Expressions</h3>
+<section id="slide-orga5e1389">
+<h3 id="orga5e1389">Expressions</h3>
 <p>
 2 + 2 is an expression, it's value is 4
 The answer is 4
 </p>
 
+<p>
+2+2=4 is an expression that evaluated to true. 
+</p>
+
+<p>
+Solution checking and whether a given value turns an expression to a true statement. 
+</p>
+
 </section>
-<section id="slide-orgd5c92e9">
-<h3 id="orgd5c92e9">Functions</h3>
+<section id="slide-orgf1c4f99">
+<h3 id="orgf1c4f99">Functions</h3>
 <p>
 Repeatable computational abstractions. The target of elementary and middle school mathematics is modeling and reasoning and expressions and equations standards are functions.
 </p>
@@ -1063,8 +1062,30 @@ Notice what changes, collect and plot data, predict/interpolate values
 </p>
 
 </section>
-<section id="slide-org8f696a3">
-<h3 id="org8f696a3">A formula is a function</h3>
+<section id="slide-org5ff3a61">
+<h3 id="org5ff3a61">Operators</h3>
+<p>
+Binary operators are given two arguments
++, ×, ÷, -
+</p>
+
+<p>
+Unary operators are given one argument
+\(a^b\), $sqrt{2}
+</p>
+
+<p>
+Functions express operations as name and some any number of arguments
+</p>
+
+<p>
+When we use name such as
+sum, difference, product, and quotient we are invoking the function. 
+</p>
+
+</section>
+<section id="slide-org8d53d30">
+<h3 id="org8d53d30">A formula is a function</h3>
 <p>
 In math class we often refer to "formulas" like the formula for the volume of a cone. 
 </p>
@@ -1078,8 +1099,8 @@ Plugging-in is applying a function forming an expression (or what excel calls a 
 </p>
 
 </section>
-<section id="slide-org60176d6">
-<h3 id="org60176d6">Examples</h3>
+<section id="slide-org06d7ee8">
+<h3 id="org06d7ee8">Examples</h3>
 <p>
 A right circular cone has a height of 11 centimeters and a diameter of
 7 centimeters. What is the approximate volume, in cubic centimeters,
@@ -1095,13 +1116,13 @@ of the cone?
 </section>
 </section>
 <section>
-<section id="slide-org9b6655f">
-<h2 id="org9b6655f">Let's talk about spreadsheets</h2>
-<div class="outline-text-2" id="text-org9b6655f">
+<section id="slide-org94d43f3">
+<h2 id="org94d43f3">Let's talk about spreadsheets</h2>
+<div class="outline-text-2" id="text-org94d43f3">
 </div>
 </section>
-<section id="slide-org439e55f">
-<h3 id="org439e55f">Fundamentals</h3>
+<section id="slide-org97f86b4">
+<h3 id="org97f86b4">Fundamentals</h3>
 <ul>
 <li>Introduction to tables</li>
 <li>Categorical and quantitative data</li>
@@ -1111,8 +1132,8 @@ of the cone?
 </ul>
 
 </section>
-<section id="slide-orgb2287eb">
-<h3 id="orgb2287eb">Warm Up</h3>
+<section id="slide-orge15ec3d">
+<h3 id="orge15ec3d">Warm Up</h3>
 <p>
 Choose a question that speaks to you.
 Be prepared to say why you chose that question
@@ -1139,8 +1160,8 @@ Time: 1 min
 </aside>
 
 </section>
-<section id="slide-orgcc4c85d">
-<h3 id="orgcc4c85d">Objectives</h3>
+<section id="slide-org0168d2c">
+<h3 id="org0168d2c">Objectives</h3>
 <p>
 Participants will be able to&#x2026;
 </p>
@@ -1152,8 +1173,8 @@ given table.</li>
 </ul>
 
 </section>
-<section id="slide-org0554ce6">
-<h3 id="org0554ce6">Data</h3>
+<section id="slide-org98cc639">
+<h3 id="org98cc639">Data</h3>
 <ul>
 <li>often means information about the world around us represented in a structure that can be read by
 computer</li>
@@ -1164,14 +1185,14 @@ computer</li>
 </ul>
 
 </section>
-<section id="slide-org8780db6">
-<h3 id="org8780db6">Data Rows and Columns</h3>
+<section id="slide-org5955b24">
+<h3 id="org5955b24">Data Rows and Columns</h3>
 <p>
 Tables are made up of data rows and columns
 </p>
 
 <ul class="org-ul">
-<li><a id="org1c656fe"></a>Data Rows :: values relating to an entity (nouns)<br />
+<li><a id="org2598d9d"></a>Data Rows :: values relating to an entity (nouns)<br />
 <ul>
 <li>a person, thing, or event</li>
 <li>represented horizontally across the table</li>
@@ -1179,7 +1200,7 @@ Tables are made up of data rows and columns
 </ul>
 </li>
 
-<li><a id="orgbd59bf6"></a>Columns :: properties or atributes about the entity (adjectives)<br />
+<li><a id="org6d42b5a"></a>Columns :: properties or atributes about the entity (adjectives)<br />
 <ul>
 <li>shared by other entities</li>
 <li>each column has a name that identifies the attribute</li>
@@ -1190,15 +1211,15 @@ Tables are made up of data rows and columns
 </ul>
 
 </section>
-<section id="slide-org7ec0fb4">
-<h3 id="org7ec0fb4">Tables</h3>
+<section id="slide-orgc36ce28">
+<h3 id="orgc36ce28">Tables</h3>
 <p>
 Data rows begin under the <b>header</b>, which contains the names of each column
 </p>
 
 </section>
-<section id="slide-org8ba5427">
-<h4 id="org8ba5427">Check for understanding</h4>
+<section id="slide-orgdf4d9a8">
+<h4 id="orgdf4d9a8">Check for understanding</h4>
 <p>
 How many data rows does this table contain?
 </p>
@@ -1241,8 +1262,8 @@ How many data rows does this table contain?
 </table>
 
 </section>
-<section id="slide-orgef6918e">
-<h3 id="orgef6918e">Activity</h3>
+<section id="slide-orga9324f8">
+<h3 id="orga9324f8">Activity</h3>
 <ul>
 <li>Draw a circle around a column</li>
 <li>Draw an line through a row</li>
@@ -1301,8 +1322,8 @@ How many data rows does this table contain?
 </table>
 
 </section>
-<section id="slide-orga4d8ed8">
-<h3 id="orga4d8ed8">Imagine data entities</h3>
+<section id="slide-org16aa901">
+<h3 id="org16aa901">Imagine data entities</h3>
 <p>
 Data entities are elements of our world that we might want to track as data.
 </p>
@@ -1318,8 +1339,8 @@ associated with a student are attendance, credits, biographicals.
 </p>
 
 </section>
-<section id="slide-orgb09cfb4">
-<h3 id="orgb09cfb4">Types of Tables</h3>
+<section id="slide-orgfea7661">
+<h3 id="orgfea7661">Types of Tables</h3>
 <dl>
 <dt>Tables for Computers</dt><dd>data collection tables
 <ul>
@@ -1338,8 +1359,8 @@ associated with a student are attendance, credits, biographicals.
 </dl>
 
 </section>
-<section id="slide-orgffa2951">
-<h3 id="orgffa2951">Example computer table</h3>
+<section id="slide-org0217ec0">
+<h3 id="org0217ec0">Example computer table</h3>
 <p>
 Submitting attendance is an example of a table for computers
 </p>
@@ -1360,8 +1381,8 @@ At what level is the row entity unique.
 </aside>
 
 </section>
-<section id="slide-orgaa802a3">
-<h4 id="orgaa802a3">Checck for understanding</h4>
+<section id="slide-org4aab3b8">
+<h4 id="org4aab3b8">Checck for understanding</h4>
 <p>
 Describe the data entity in an attendance collection table.
 </p>
@@ -1425,15 +1446,15 @@ Describe the data entity in an attendance collection table.
 </table>
 
 </section>
-<section id="slide-orgc27374b">
-<h3 id="orgc27374b">Example of table for humans</h3>
+<section id="slide-orgb6fd806">
+<h3 id="orgb6fd806">Example of table for humans</h3>
 <p>
 A student level report for a parent conference is an example of a table for humans.
 </p>
 
 </section>
-<section id="slide-orgf0abe30">
-<h4 id="orgf0abe30">Check for understanding</h4>
+<section id="slide-org0a0cf64">
+<h4 id="org0a0cf64">Check for understanding</h4>
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -1485,8 +1506,8 @@ A student level report for a parent conference is an example of a table for huma
 </table>
 
 </section>
-<section id="slide-orge626218">
-<h3 id="orge626218">Categorical and Quantitative Data</h3>
+<section id="slide-orgef4ff42">
+<h3 id="orgef4ff42">Categorical and Quantitative Data</h3>
 <dl>
 <dt>Categorical data</dt><dd>describe attributes that represent categories to which the entity belongs
 <ul>
@@ -1511,8 +1532,8 @@ operations are available to summariz and tranform the data.
 </aside>
 
 </section>
-<section id="slide-org6bbd8a2">
-<h3 id="org6bbd8a2">Categorical or Quantitative?</h3>
+<section id="slide-orgd6a948e">
+<h3 id="orgd6a948e">Categorical or Quantitative?</h3>
 <ul>
 <li>Who is the oldest in a particular grade?</li>
 <li>Which students need attendance outreach?</li>
@@ -1532,8 +1553,8 @@ What type of data knowledge would you use to answer each question?
 </aside>
 
 </section>
-<section id="slide-orge650cec">
-<h3 id="orge650cec">Subgroups</h3>
+<section id="slide-orgeac11cc">
+<h3 id="orgeac11cc">Subgroups</h3>
 <ul>
 <li>Large amounts of data are more useful when broken up into different subgroups</li>
 <li>If I am a principal, I might want to see data relating to only certain classrooms.</li>
@@ -1542,8 +1563,8 @@ What type of data knowledge would you use to answer each question?
 </ul>
 
 </section>
-<section id="slide-org338f814">
-<h4 id="org338f814">Breakout</h4>
+<section id="slide-org35c89a4">
+<h4 id="org35c89a4">Breakout</h4>
 <ul>
 <li>What are some examples of subgroups of your students?</li>
 <li>How are those students described in meetings?</li>
@@ -1552,8 +1573,8 @@ What type of data knowledge would you use to answer each question?
 </ul>
 
 </section>
-<section id="slide-orgb09e3f9">
-<h3 id="orgb09e3f9">Activity Overview</h3>
+<section id="slide-orgf8e76b0">
+<h3 id="orgf8e76b0">Activity Overview</h3>
 <p>
 <b>Filter Views</b> Filter views represent subgroups of data.
 </p>
@@ -1574,8 +1595,8 @@ are viewing.
 </aside>
 
 </section>
-<section id="slide-org066bf45">
-<h3 id="org066bf45">Student Data</h3>
+<section id="slide-orgb4ea783">
+<h3 id="orgb4ea783">Student Data</h3>
 <p>
 <a href="https://docs.google.com/spreadsheets/d/11_Xxc7IK2IviW4gNmCHT4AVPgLKwhMU4HrJF7Z-Z_pk/copy">Make a copy of student dataset</a> The link about allows you to copy a one semester summary of student
 data.
@@ -1605,8 +1626,8 @@ Spreadsheets aren't really tables because the header is treated like another cel
 </aside>
 
 </section>
-<section id="slide-orgffa729c">
-<h3 id="orgffa729c">Pivot Tables</h3>
+<section id="slide-orgf0a81c7">
+<h3 id="orgf0a81c7">Pivot Tables</h3>
 <ul>
 <li>Pivot tables are summaries of large tables</li>
 <li>By grouping data together we can make a new table where each row entity is a summary of some part
@@ -1615,8 +1636,8 @@ of the larger table.</li>
 </ul>
 
 </section>
-<section id="slide-orga7c8d04">
-<h4 id="orga7c8d04">Create a pivot table</h4>
+<section id="slide-org2876c7a">
+<h4 id="org2876c7a">Create a pivot table</h4>
 <p>
 Find "Pivot Table" in the <span class="underline">Data</span> menu
 </p>
@@ -1630,22 +1651,22 @@ You can create a new sheet or add multiple pivot tables to one sheet.
 </p>
 
 </section>
-<section id="slide-orgfe0bacd">
-<h4 id="orgfe0bacd">Choose Rows</h4>
+<section id="slide-orgb508038">
+<h4 id="orgb508038">Choose Rows</h4>
 <p>
 Choose your columns to be some categorical data that represents a subgroup of the data.
 </p>
 
 </section>
-<section id="slide-org552775b">
-<h4 id="org552775b">Choose columns</h4>
+<section id="slide-orge850153">
+<h4 id="orge850153">Choose columns</h4>
 <p>
 For each row what attributes to want to investigate
 </p>
 
 </section>
-<section id="slide-orga96434a">
-<h4 id="orga96434a">Choose value</h4>
+<section id="slide-org07783f2">
+<h4 id="org07783f2">Choose value</h4>
 <p>
 For each attribute how would you like to summarize it?
 </p>
@@ -1661,8 +1682,8 @@ What are common ways we summarize student grades or attendance?
 </aside>
 
 </section>
-<section id="slide-org590f23f">
-<h3 id="org590f23f">Cell References</h3>
+<section id="slide-orgc053cd0">
+<h3 id="orgc053cd0">Cell References</h3>
 <p>
 Each cell is named by the absolute reference using the column letters first found at the top and row numbers second found along the side.
 </p>
@@ -1678,8 +1699,8 @@ The leading equal sign (=) means "Hey spreadsheet I'm about to give you a formul
 </aside>
 
 </section>
-<section id="slide-org875201a">
-<h3 id="org875201a">Functions and Expressions (Formulas)</h3>
+<section id="slide-org1870cc5">
+<h3 id="org1870cc5">Functions and Expressions (Formulas)</h3>
 <pre class="example">
 =function(values)
 </pre>
@@ -1696,8 +1717,8 @@ The leading equal sign (=) means "Hey spreadsheet I'm about to give you a formul
 </ul>
 
 </section>
-<section id="slide-org0a9e5ee">
-<h3 id="org0a9e5ee">Function Contracts (protocols)</h3>
+<section id="slide-org4584a7e">
+<h3 id="org4584a7e">Function Contracts (protocols)</h3>
 <p>
 A contract is an agreement with the function. If we follow the contract, the function will do work for us. We need to give the function what is expected in its contract in order for it to do its work.
 Type <code>=concatenate</code>
@@ -1707,8 +1728,8 @@ What will concatenate give back if you follow the contract?
 </p>
 
 </section>
-<section id="slide-orgf51ce1a">
-<h3 id="orgf51ce1a">Copy down formulas for an entire column</h3>
+<section id="slide-orgab43c17">
+<h3 id="orgab43c17">Copy down formulas for an entire column</h3>
 <p>
 Most spreadsheet functions work on single values
 One way to apply a function to a range of values, such as all of the values in a column of data, you
@@ -1723,8 +1744,8 @@ can copy down the formula by&#x2026;
 </ul>
 
 </section>
-<section id="slide-orged9b30f">
-<h3 id="orged9b30f">Import Data</h3>
+<section id="slide-orgab91afe">
+<h3 id="orgab91afe">Import Data</h3>
 <p>
 <a href="https://www.dropbox.com/s/3inawmtc919pcgu/2021FallSemesterJumpropeData.csv?dl=0">Student data csv download</a> Download the file above or use a csv of your own student data
 </p>
@@ -1740,8 +1761,8 @@ can copy down the formula by&#x2026;
 </ul>
 
 </section>
-<section id="slide-org2878cc2">
-<h3 id="org2878cc2">Named ranges</h3>
+<section id="slide-orgcedbe63">
+<h3 id="orgcedbe63">Named ranges</h3>
 <ul>
 <li>Open a spreadsheet in Google Sheets.</li>
 <li>Select the cells you want to name.</li>
@@ -1755,26 +1776,24 @@ can copy down the formula by&#x2026;
 </ul>
 
 </section>
-<section id="slide-orgf51db97">
-<h3 id="orgf51db97">Named ranges example</h3>
+<section id="slide-orgde107b0">
+<h3 id="orgde107b0">Named ranges example</h3>
 <p>
 Assume you have the names <b>first<sub>column</sub></b> and <b>second<sub>column</sub></b> in your named ranges.
 <code>=arrayformula(concatenate(first_column, second_column)</code>
 </p>
 
 </section>
-<section id="slide-org0fe1eaa">
-<h3 id="org0fe1eaa">Array BuilderNotation</h3>
+<section id="slide-orgbde70d9">
+<h3 id="orgbde70d9">Array BuilderNotation</h3>
 <p>
 Creating custom arrays
 You can also create your own arrays in a formula in your spreadsheet by using brackets { }. The brackets allow you to group values, which can be a single number, string or boolean, or a rangeof values. 
 </p>
 
-
-
 </section>
-<section id="slide-org05b82bf">
-<h3 id="org05b82bf">Horizontal and Vertical Stacking</h3>
+<section id="slide-org54c2afc">
+<h3 id="org54c2afc">Horizontal and Vertical Stacking</h3>
 <p>
 Use the following punctuation to arrange values in an array:
 </p>
@@ -1790,12 +1809,12 @@ Try on your own.
 </p>
 
 </section>
-<section id="slide-org2662a06">
-<h3 id="org2662a06">Arrayformula</h3>
+<section id="slide-org67fcf07">
+<h3 id="org67fcf07">Arrayformula</h3>
 
 </section>
-<section id="slide-org9c1d70a">
-<h3 id="org9c1d70a">Example: Operators vs Function</h3>
+<section id="slide-orga130a4f">
+<h3 id="orga130a4f">Example: Operators vs Function</h3>
 <p>
 Recall the distributive property
 </p>
@@ -1816,8 +1835,8 @@ to
 </p>
 
 </section>
-<section id="slide-orgbc40535">
-<h3 id="orgbc40535">Filter and sort functions</h3>
+<section id="slide-orgf5b3a32">
+<h3 id="orgf5b3a32">Filter and sort functions</h3>
 <p>
 =FILTER(data, boolean-mask-to-apply-over-that-data)
 </p>
@@ -1827,24 +1846,24 @@ Formulas in filters expand like an array formula
 </p>
 
 </section>
-<section id="slide-org06754d9">
-<h3 id="org06754d9">Match an index</h3>
+<section id="slide-org5185d7b">
+<h3 id="org5185d7b">Match an index</h3>
 </section>
-<section id="slide-org11a9e39">
-<h3 id="org11a9e39">Concatenate text with map</h3>
+<section id="slide-org3412eef">
+<h3 id="org3412eef">Concatenate text with map</h3>
 </section>
 </section>
 <section>
-<section id="slide-org0e4e630">
-<h2 id="org0e4e630">Let's talk about data science</h2>
-<div class="outline-text-2" id="text-org0e4e630">
+<section id="slide-orgaee3997">
+<h2 id="orgaee3997">Let's talk about data science</h2>
+<div class="outline-text-2" id="text-orgaee3997">
 </div>
 </section>
-<section id="slide-org2b70249">
-<h3 id="org2b70249">Using a programming language to produce meaningful results with data</h3>
+<section id="slide-orga1b121f">
+<h3 id="orga1b121f">Using a programming language to produce meaningful results with data</h3>
 </section>
-<section id="slide-org173b3a0">
-<h3 id="org173b3a0">Pyret Starter File</h3>
+<section id="slide-orgcd3e87e">
+<h3 id="orgcd3e87e">Pyret Starter File</h3>
 <p>
 <a href="https://code.pyret.org/editor#share=1dPRWELtPqqlXEwO_QnnR5RVVlanCXeOd&amp;v=da57865">Student Data Starter File</a>
 Open the link above.
@@ -1855,26 +1874,26 @@ Consult the curriculum workbook for a full list of the contracts available.
 </p>
 
 </section>
-<section id="slide-org1017072">
-<h3 id="org1017072">Tables and Row Accessors</h3>
+<section id="slide-org17ebf17">
+<h3 id="org17ebf17">Tables and Row Accessors</h3>
 
 </section>
-<section id="slide-org905a646">
-<h3 id="org905a646">Visualizations</h3>
+<section id="slide-org29f3472">
+<h3 id="org29f3472">Visualizations</h3>
 </section>
-<section id="slide-org2a4981c">
-<h4 id="org2a4981c">Pie-chart</h4>
+<section id="slide-org3427452">
+<h4 id="org3427452">Pie-chart</h4>
 <p>
 <code>pie-chart(students-table, "iep)</code>
 </p>
 
 </section>
-<section id="slide-org6ee46e3">
-<h4 id="org6ee46e3">Bar chart</h4>
+<section id="slide-orgf60ac24">
+<h4 id="orgf60ac24">Bar chart</h4>
 
 </section>
-<section id="slide-org16026df">
-<h3 id="org16026df">WGOITG? NY Times</h3>
+<section id="slide-org70a6d11">
+<h3 id="org70a6d11">WGOITG? NY Times</h3>
 </section>
 </section>
 </div>
